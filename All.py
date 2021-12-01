@@ -146,7 +146,6 @@ def menu():
                 os.system("figlet Byee")
                 print "\t \033[36;1mSelamat \033[35;1mBerjumpa \033[33;1mLagi \033[32;1mKawan:)\n"
                 print "\t \033[36;1mTools \033[35;1mBy \033[33;1mReza \033[32;1mAlfauzan\n"
-                auto("\033[32;1mJangan \033[35;1msampe \033[36;1mkosong \033[32;1mya")
                 time.sleep(3.0)
 
 menu()
