@@ -36,7 +36,7 @@ if __name__ == "__main__":
 
 def menu():
         os.system("clear")
-        os.system("figlet All")
+        os.system("figlet ALL")
         print "\t \033[36;1mTools \033[35;1mBy \033[33;1mReza \033[32;1mAlfauzan\n"
         print("\033[35;1m1. Send Malware")
         print("\033[34;1m2. Ubah Tampilan")
