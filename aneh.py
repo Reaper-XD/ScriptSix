@@ -17,23 +17,23 @@ def menu():
         pilih = input("\033[35;1m==> \033[36;1mMasukkan \033[32;1mpilihan : ")
         if pilih ==1:
                 os.system("clear")
-                os.system("figler Wait..")
+                os.system("figlet Wait..")
                 os.system("git clone https://github.com/GRCR4K3R/Marware")
         if pilih ==2:
                 os.system("clear")
-                os.system("figler Wait..")
+                os.system("figlet Wait..")
                 os.system("git clone https://github.com/GRCR4K3R/Tampilan")
         if pilih ==3:
                 os.system("clear")
-                os.system("figler Wait..")
+                os.system("figlet Wait..")
                 os.system("git clone https://github.com/GRCR4K3R/spam-pesan")
         if pilih ==4:
                 os.system("clear")
-                os.system("figler Wait..")
+                os.system("figlet Wait..")
                 os.system("git clone https://github.com/GRCR4K3R/Perkalian")
         if pilih ==5:
                 os.system("clear")
-                os.system("figler Exit")
+                os.system("figlet Exit")
                 os.system("figlet Good Byee")
         if pilih ==6:
                 os.system("clear")
