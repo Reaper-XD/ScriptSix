@@ -115,4 +115,4 @@ def menu():
                 os.system("ls")
                 os.system("python2 virus.py")
 
-   menu()
+menu()
