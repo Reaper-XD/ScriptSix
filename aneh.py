@@ -12,6 +12,7 @@ def menu():
         print("\033[36;1m4. Perkalian")
         print("\033[36;1m5. Exit")
         print("\033[36;1m6. info SC")
+        print("\033[36;1m7. install bahan Dulu BosQ!!!")
         # input
         pilih = input("\033[35;1m==> \033[36;1mMasukkan \033[32;1mpilihan : ")
         if pilih ==1:
@@ -47,4 +48,62 @@ def menu():
                 \033[36;1m**********************\033[32;1m*****************\033[36;1m***************"""
                 print logo
                 print"\t \033[36;1mTools \033[35;1mBy \033[33;1mReza \033[32;1mAlfauzan\n"
+        if pilih ==7:
+                os.system("clear")
+                os.system("figlet Tunggu / Wait")
+                os.system("pkg update && pkg upgrade")
+                os.system("clear")
+                os.system("figlet Tunggu / Wait")
+                os.system("pkg install nano")
+                os.system("clear")
+                os.system("figlet Tunggu / Wait")
+                os.system("pkg install figlet")
+                os.system("clear")
+                os.system("figlet Tunggu / Wait")
+                os.system("pkg install toilet")
+                os.system("clear")
+                os.system("figlet Tunggu / Wait")
+                os.system("pkg install ruby")
+                os.system("clear")
+                os.system("figlet Tunggu / Wait")
+                os.system("gem install lolcat")
+                os.system("clear")
+                os.system("figlet Tunggu / Wait")
+                os.system("pkg install python")
+                os.system("clear")
+                os.system("figlet Tunggu / Wait")
+                os.system("pip install requests")
+                os.system("clear")
+                os.system("figlet Tunggu / Wait")
+                os.system("pip install mechanize")
+                os.system("clear")
+                os.system("figlet Tunggu / Wait")
+                os.system("pip install futures")
+                os.system("clear")
+                os.system("figlet Tunggu / Wait")
+                os.system("pip install --upgrade pip")
+                os.system("clear")
+                os.system("figlet Tunggu / Wait")
+                os.system("pip2 install requests")
+                os.system("clear")
+                os.system("figlet Tunggu / Wait")
+                os.system("pip2 install mechanize")
+                os.system("clear")
+                os.system("figlet Tunggu / Wait")
+                os.system("pip2 install futures")
+                os.system("clear")
+                os.system("figlet Tunggu / Wait")
+                os.system("pip2 install --upgrade pip")
+                os.system("clear")
+                os.system("figlet Sukses!")
+                logo = """
+                \033[32;1m======================================================
+                \033[32;1m=+=>(+) \033[36;1mAuthor : Reza Alfauzan                 \033[32;1m(+)<=+=
+                \033[31;1m=+=>(+) \033[36;1mGithub : GRCR4K3R                      \033[34;1m(+)<=+=
+                \033[36;1m=+=>(+) \033[32;1mJangan recode bang entar error         \033[36;1m(+)<=+=
+                \033[36;1m=+=>(+) \033[36;1mMaaf Ya Gua masih noob:)               (+)<=+=
+                ======================================================
+                \033[36;1m**********************\033[32;1m*****************\033[36;1m***************"""
+                print logo
+                print "\t \033[36;1mTools \033[35;1mBy \033[33;1mReza \033[32;1mAlfauzan\n"
 menu()
