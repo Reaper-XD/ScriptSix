@@ -7,7 +7,8 @@ y = "Ganteng"
 
 def login():
         os.system("clear")
-        os.system("figlet Access")
+        os.system("toilet -f big -F gay Access User")
+        os.system("figlet Access User")
         logo = """
         \033[36;1m==============\033[35;1m===========================\033[36;1m==================
         \033[31;1m===  \033[36;1m[\033[33;1m*\033[36;1m] \033[32;1mAuthor : Reza Alfauzan                    \033[36;1m[\033[33;1m*\033[36;1m]  \033[31;1m===
