@@ -34,7 +34,7 @@ def menu():
                 os.system("clear")
                 os.system("figler Exit")
                 os.system("figlet Good Byee")
-        if pilih 6==:
+        if pilih ==6:
                 os.system("clear")
                 os.system("figlet Info")
                 logo = """
