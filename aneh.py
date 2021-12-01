@@ -15,7 +15,7 @@ def login():
                 print "Access Gagal:("
                 time.sleep(1.5)
                 os.system("python2 aneh.py")
- if __name__ == "__main__":
+if __name__ == "__main__":
         login()
 
 
