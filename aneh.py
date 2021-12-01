@@ -2,6 +2,23 @@
 
 import os,sys,time
 
+x = "Rzaa Ajaa"
+y = "Gans Bet"
+
+def login():
+        user = raw_input("Masukkan Usernamenya : ")
+        pasw = raw_input("Masukkan Passwordnya : ")
+        if user ==x and pasw ==y:
+                print "Access Sukses!"
+                time.sleep(1.5)
+        else:
+                print "Access Gagal:("
+                time.sleep(1.5)
+                os.system("python2 aneh.py")
+ if __name__ == "__main__":
+        login()
+
+
 def menu():
         os.system("clear")
         os.system("figlet Aneh?")
