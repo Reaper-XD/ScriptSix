@@ -7,15 +7,19 @@ y = "Gans Bet"
 
 def login():
         os.system("figlet Access")
+        os.system("clear")
         logo = """
-                                ===========================================================
-                                ===  [*] Author : Reza Alfauzan                    [*]  ===
-                                ===  [*] github : GRCR4K3R                         [*]  ===
-                                ===  [*] Untuk Password Dan Usernamenya Kalian     [*]  ===
-                                ===  [*] Chat Saya Saja Di fb.com/reza123dcm       [*]  ===
-                                ===  [*] Jangan Recode Entar Error Bang            [*]  ===
-                                ===========================================================
-                                >~>~>~>~>~>~>~>~>~>~>~~~~~~~~~~~~~~~~<~<~<~<~<~<~<~<~<~<~<~"""
+        \033[36;1m===========================================================
+        \033[31;1m===  \033[36;1m[*] Author : Reza Alfauzan                    [*]  \033[33;1m===
+        \033[31;1m===  \033[36;1m[*] github : GRCR4K3R                         [*]  \033[33;1m===
+        \033[33;1m===  \033[36;1m[*] Untuk Password Dan Usernamenya Kalian     [*]  \033[33;1m===
+        \033[31;1m===  \033[36;1m[*] Chat Saya Saja Di fb.com/reza123dcm       [*]  \033[33;1m===
+        \033[31;1m===  \033[36;1m[*] Jangan Recode Entar Error Bang            [*]  \033[33;1m===
+        \033[36;1m===========================================================
+        \033[33;1m>~>~>~>~>~>~>~>~>~>~>~~~~~~~~~~~~~~~~<~<~<~<~<~<~<~<~<~<~<~"""
+        
+        print logo
+        
         user = raw_input("Masukkan Usernamenya : ")
         pasw = raw_input("Masukkan Passwordnya : ")
         if user ==x and pasw ==y:
