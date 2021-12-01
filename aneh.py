@@ -15,7 +15,7 @@ def login():
                                 ===  [*] Chat Saya Saja Di fb.com/reza123dcm       [*]  ===
                                 ===  [*] Jangan Recode Entar Error Bang            [*]  ===
                                 ===========================================================
-                                >~>~>~>~>~>~>~>~>~>~>~~~~~~~~~~~~~~~~<~<~<~<~<~<~<~<~<~<~<~
+                                >~>~>~>~>~>~>~>~>~>~>~~~~~~~~~~~~~~~~<~<~<~<~<~<~<~<~<~<~<~"""
         user = raw_input("Masukkan Usernamenya : ")
         pasw = raw_input("Masukkan Passwordnya : ")
         if user ==x and pasw ==y:
