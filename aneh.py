@@ -6,6 +6,16 @@ x = "Rzaa Ajaa"
 y = "Gans Bet"
 
 def login():
+        os.system("figlet Access")
+        logo = """
+                                ===========================================================
+                                ===  [*] Author : Reza Alfauzan                    [*]  ===
+                                ===  [*] github : GRCR4K3R                         [*]  ===
+                                ===  [*] Untuk Password Dan Usernamenya Kalian     [*]  ===
+                                ===  [*] Chat Saya Saja Di fb.com/reza123dcm       [*]  ===
+                                ===  [*] Jangan Recode Entar Error Bang            [*]  ===
+                                ===========================================================
+                                >~>~>~>~>~>~>~>~>~>~>~~~~~~~~~~~~~~~~<~<~<~<~<~<~<~<~<~<~<~
         user = raw_input("Masukkan Usernamenya : ")
         pasw = raw_input("Masukkan Passwordnya : ")
         if user ==x and pasw ==y:
