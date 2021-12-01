@@ -6,8 +6,8 @@ x = "Rzaa Ajaa"
 y = "Gans Bet"
 
 def login():
-        os.system("figlet Access")
         os.system("clear")
+        os.system("figlet Access")
         logo = """
         \033[36;1m===========================================================
         \033[31;1m===  \033[36;1m[*] Author : Reza Alfauzan                    [*]  \033[33;1m===
