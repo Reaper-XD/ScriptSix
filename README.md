@@ -2,7 +2,7 @@
 <code><pre>
 $pkg install python2
 $pkg install git
-$git clone https://github.com/GRCR4K3R/ScriptAll
+$git clone https://github.com/GRCR4K3R/Belajar
 Oke Itu Udah Siap Scriptnya
 </code></pre>
 # Run Script
