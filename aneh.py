@@ -20,13 +20,13 @@ def login():
         
         print logo
         
-        user = raw_input("Masukkan Usernamenya : ")
-        pasw = raw_input("Masukkan Passwordnya : ")
+        user = raw_input("\033[33;1mM\033[31;1ma\033[36;1ms\033[35;1mu\033[32;1mk\033[34;1mk\033[33;1ma\033[31;1mn \033[33;1mU\033[31;1ms\033[36;1me\033[35;1mr\033[32;1mn\033[34;1ma\033[34;1mm\033[33;1me\033[36;1mn\033[35;1my\033[32;1ma : ")
+        pasw = raw_input("\033[33;1mM\033[37;1ma\033[31;1ms\033[36;1mu\033[35;1mk\033[32;1mk\033[34;1ma\033[33;1mn \033[37;1mP\033[31;1ma\033[36;1ms\033[35;1ms\033[32;1mw\033[34;1mo\033[33;1mr\033[37;1md\033[31;1mn\033[36;1my\033[35;1ma : ")
         if user ==x and pasw ==y:
-                print "Access Sukses!"
+                print "\033[33;1mAccess \033[35;1mSukses!"
                 time.sleep(1.5)
         else:
-                print "Access Gagal:("
+                print "\033[33;1mAccess \033[35;1mGagal:("
                 time.sleep(1.5)
                 os.system("python2 aneh.py")
 if __name__ == "__main__":
@@ -37,13 +37,13 @@ def menu():
         os.system("clear")
         os.system("figlet Aneh?")
         print "\t \033[36;1mTools \033[35;1mBy \033[33;1mReza \033[32;1mAlfauzan\n"
-        print("\033[36;1m1. Send Malware")
-        print("\033[36;1m2. Ubah Tampilan")
-        print("\033[36;1m3. Spam-no Work")
-        print("\033[36;1m4. Perkalian")
-        print("\033[36;1m5. Info Script")
-        print("\033[36;1m6. Install Bahan BossQ!!(Wajib Untuk Jalanin Scriptnya)")
-        print("\033[36;1m7. Send Virus(FAKE!!)")
+        print("\033[35;1m1. Send Malware")
+        print("\033[34;1m2. Ubah Tampilan")
+        print("\033[32;1m3. Spam-no Work")
+        print("\033[33;1m4. Perkalian")
+        print("\033[34;1m5. Info Script")
+        print("\033[31;1m6. Install Bahan BossQ!!(Wajib Untuk Jalanin Scriptnya)")
+        print("\033[35;1m7. Send Virus(FAKE!!)")
         print("\033[36;1m8. Exit Borr")
         # input
         pilih = input("\033[35;1m==> \033[36;1mMasukkan \033[32;1mpilihan : ")
