@@ -60,8 +60,8 @@ def menu():
         print("\033[33;1m4. \033[31;1mPerkalian")
         print("\033[34;1m5. \033[33;1mInfo \033[31;1mScript")
         print("\033[31;1m6. \033[36;1mInstall \033[35;1mBahan \033[32;1mBossQ!!\033[36;1m(Wajib Untuk Jalanin Scriptnya)")
-        print("\033[35;1m7. Send Virus(FAKE!!)")
-        print("\033[36;1m8. Exit Borr")
+        print("\033[35;1m7. \033[32;1mSend \033[34;1mVirus\033[36;1m(FAKE!!)")
+        print("\033[36;1m8. \033[35;1mExit \033[33;1mBorr")
         # input
         pilih = input("\033[35;1m==> \033[36;1mMasukkan \033[32;1mpilihan : ")
         if pilih ==1:
