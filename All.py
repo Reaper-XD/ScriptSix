@@ -55,19 +55,19 @@ def menu():
         if pilih ==1:
                 os.system("clear")
                 os.system("figlet Wait..")
-                os.system("git clone https://github.com/GRCR4K3R/Marware")
+                os.system("git clone https://github.com/GRCR4K3R/AllMee")
         if pilih ==2:
                 os.system("clear")
                 os.system("figlet Wait..")
-                os.system("git clone https://github.com/GRCR4K3R/Tampilan")
+                os.system("git clone https://github.com/GRCR4K3R/AllMee")
         if pilih ==3:
                 os.system("clear")
                 os.system("figlet Wait..")
-                os.system("git clone https://github.com/GRCR4K3R/spam-pesan")
+                os.system("git clone https://github.com/GRCR4K3R/AllMee")
         if pilih ==4:
                 os.system("clear")
                 os.system("figlet Wait..")
-                os.system("git clone https://github.com/GRCR4K3R/Perkalian")
+                os.system("git clone https://github.com/GRCR4K3R/AllMee")
         if pilih ==5:
                 os.system("clear")
                 os.system("figlet Info")
