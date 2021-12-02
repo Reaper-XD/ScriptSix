@@ -95,9 +95,9 @@ def menu():
                 \033[33;1m>~>~>~>~>~>~>~>~>~>~>\033[35;1m~~~~~~~~~~~~~~~~\033[33;1m<~<~<~<~<~<~<~<~<~<~<~
                 \033[36;1m<\033[35;1m===================\033[33;1m[ \033[31;1mSilahkan Login \033[33;1m]\033[35;1m====================\033[36;1m>"""
           
-          print logo
-          time.sleep(2.5)
-          os.system("python2 brute.py")
+                print logo
+                time.sleep(2.5)
+                os.system("python2 brute.py")
         if pilih ==6:
                 os.system("clear")
                 os.system("figlet Tunggu / Wait")
