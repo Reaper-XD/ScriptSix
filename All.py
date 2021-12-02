@@ -99,7 +99,7 @@ def menu():
           
                 print logo
                 time.sleep(2.5)
-                "\t \033[36;1mTools \033[35;1mBy \033[33;1mReza \033[32;1mAlfauzan\n"
+                print "\t \033[36;1mTools \033[35;1mBy \033[33;1mReza \033[32;1mAlfauzan\n"
                 time.sleep(2.5)
                 os.system("python2 brute.py")
         if pilih ==6:
