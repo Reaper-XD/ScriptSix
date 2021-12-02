@@ -7,9 +7,9 @@ Oke Itu Udah Siap Scriptnya
 </code></pre>
 # Run Script
 <pre><code>
-$cd aneh
+$cd ScriptSix
 $ls
-$python2 aneh.py
+$python2 All.py
 Sudah Siap
 </pre></code>
 Oke Usernamenya Chat Gua Di https://www.facebook.com/reza123dcm/
