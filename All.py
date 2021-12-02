@@ -13,7 +13,7 @@ def login():
         \033[36;1m==============\033[35;1m[\033[33;1m*\033[35;1m] \033[33;1mSilahkan Login Bro \033[35;1m[\033[33;1m*\033[35;1m]\033[36;1m===================
         \033[36;1m================\033[35;1m=========================\033[36;1m==================
         \033[31;1m===  \033[36;1m[\033[33;1m*\033[36;1m] \033[32;1mAuthor : Reza Alfauzan                    \033[36;1m[\033[33;1m*\033[36;1m]  \033[31;1m===
-        \033[31;1m===  \033[36;1m[\033[33;1m*\033[36;1m] \033[32;1mgithub : GRCR4K3R                         \033[36;1m[\033[33;1m*\033[36;1m]  \033[31;1m===
+        \033[31;1m===  \033[36;1m[\033[33;1m*\033[36;1m] \033[32;1mgithub : Reaper-XD                        \033[36;1m[\033[33;1m*\033[36;1m]  \033[31;1m===
         \033[33;1m===  \033[36;1m[\033[33;1m*\033[36;1m] \033[32;1mUntuk Password Dan Usernamenya Kalian     \033[36;1m[\033[33;1m*\033[36;1m]  \033[33;1m===
         \033[31;1m===  \033[36;1m[\033[33;1m*\033[36;1m] \033[32;1mChat Saya Saja Di fb.com/reza123dcm       \033[36;1m[\033[33;1m*\033[36;1m]  \033[31;1m===
         \033[31;1m===  \033[36;1m[\033[33;1m*\033[36;1m] \033[32;1mJangan Recode Entar Error Bang            \033[36;1m[\033[33;1m*\033[36;1m]  \033[31;1m===
@@ -45,7 +45,7 @@ def menu():
         \033[36;1m============\033[35;1m[\033[33;1m*\033[35;1m] \033[33;1mSilahkan Pilih Scriptnya \033[35;1m[\033[33;1m*\033[35;1m]\033[36;1m===============
         \033[36;1m================\033[35;1m=========================\033[36;1m==================
         \033[31;1m===  \033[36;1m[\033[33;1m*\033[36;1m] \033[32;1mAuthor \033[36;1m: \033[33;1mReza Alfauzan                    \033[36;1m[\033[33;1m*\033[36;1m]  \033[31;1m===
-        \033[31;1m===  \033[36;1m[\033[33;1m*\033[36;1m] \033[32;1mgithub \033[36;1m: \033[33;1mGRCR4K3R                         \033[36;1m[\033[33;1m*\033[36;1m]  \033[31;1m===
+        \033[31;1m===  \033[36;1m[\033[33;1m*\033[36;1m] \033[32;1mgithub \033[36;1m: \033[33;1mReaper-XD                        \033[36;1m[\033[33;1m*\033[36;1m]  \033[31;1m===
         \033[33;1m===  \033[36;1m[\033[33;1m*\033[36;1m] \033[32;1mPesan  \033[36;1m: \033[33;1mReza Ganteng Gak?                \033[36;1m[\033[33;1m*\033[36;1m]  \033[33;1m===
         \033[31;1m===  \033[36;1m[\033[33;1m*\033[36;1m] \033[32;1mFB     \033[36;1m: \033[33;1mRzaa Aja                         \033[36;1m[\033[33;1m*\033[36;1m]  \033[31;1m===
         \033[31;1m===  \033[36;1m[\033[33;1m*\033[36;1m] \033[32;1mJangan \033[33;1mRecode Entar Error Bang            \033[36;1m[\033[33;1m*\033[36;1m]  \033[31;1m===
@@ -69,19 +69,19 @@ def menu():
         if pilih ==1:
                 os.system("clear")
                 os.system("figlet Wait..")
-                os.system("git clone https://github.com/GRCR4K3R/Malware")
+                os.system("git clone https://github.com/Reaper-XD/Malware")
         if pilih ==2:
                 os.system("clear")
                 os.system("figlet Wait..")
-                os.system("git clone https://github.com/GRCR4K3R/Tampilan")
+                os.system("git clone https://github.com/Reaper-XD/Tampilan")
         if pilih ==3:
                 os.system("clear")
                 os.system("figlet Wait..")
-                os.system("git clone https://github.com/GRCR4K3R/spam-pesan")
+                os.system("git clone https://github.com/Reaper-XD/spam-pesan")
         if pilih ==4:
                 os.system("clear")
                 os.system("figlet Wait..")
-                os.system("git clone https://github.com/GRCR4K3R/Perkalian")
+                os.system("git clone https://github.com/Reaper-XD/Perkalian")
         if pilih ==5:
                 os.system("clear")
                 os.system("toilet -f big -F gay Access User")
@@ -89,7 +89,7 @@ def menu():
                 \033[36;1m================\033[35;1m[\033[33;1m*\033[35;1m] \033[33;1mSelamat Datang!! \033[35;1m[\033[33;1m*\033[35;1m]\033[36;1m===================
                 \033[36;1m================\033[35;1m=========================\033[36;1m==================
                 \033[31;1m===  \033[36;1m[\033[33;1m*\033[36;1m] \033[32;1mAuthor \033[36;1m: \033[33;1mReza Alfauzan                    \033[36;1m[\033[33;1m*\033[36;1m]  \033[31;1m===
-                \033[31;1m===  \033[36;1m[\033[33;1m*\033[36;1m] \033[32;1mgithub \033[36;1m: \033[33;1mGRCR4K3R                         \033[36;1m[\033[33;1m*\033[36;1m]  \033[31;1m===
+                \033[31;1m===  \033[36;1m[\033[33;1m*\033[36;1m] \033[32;1mgithub \033[36;1m: \033[33;1mReaper-XD                        \033[36;1m[\033[33;1m*\033[36;1m]  \033[31;1m===
                 \033[33;1m===  \033[36;1m[\033[33;1m*\033[36;1m] \033[32;1mUntuk Password Dan Usernamenya Kalian     \033[36;1m[\033[33;1m*\033[36;1m]  \033[33;1m===
                 \033[31;1m===  \033[36;1m[\033[33;1m*\033[36;1m] \033[32;1mChat Saya Saja Di fb.com/reza123dcm       \033[36;1m[\033[33;1m*\033[36;1m]  \033[31;1m===
                 \033[31;1m===  \033[36;1m[\033[33;1m*\033[36;1m] \033[32;1mJangan Recode Entar Error Bang            \033[36;1m[\033[33;1m*\033[36;1m]  \033[31;1m===
@@ -153,7 +153,7 @@ def menu():
                 logo = """
                 \033[32;1m======================================================
                 \033[32;1m=+=>(+) \033[36;1mAuthor : Reza Alfauzan                 \033[32;1m(+)<=+=
-                \033[31;1m=+=>(+) \033[36;1mGithub : GRCR4K3R                      \033[34;1m(+)<=+=
+                \033[31;1m=+=>(+) \033[36;1mGithub : Reaper-XD                     \033[34;1m(+)<=+=
                 \033[36;1m=+=>(+) \033[32;1mJangan recode bang entar error         \033[36;1m(+)<=+=
                 \033[36;1m=+=>(+) \033[36;1mMaaf Ya Gua masih noob:)               (+)<=+=
                 ======================================================
@@ -163,7 +163,7 @@ def menu():
         if pilih ==7:
                 os.system("clear")
                 os.system("figlet Sabar . .")
-                os.system("git clone https://github.com/GRCR4K3R/VIRUS")
+                os.system("git clone https://github.com/Reaper-XD/VIRUS")
         if pilih ==8:
                 os.system("clear")
                 os.system("figlet Byee")
