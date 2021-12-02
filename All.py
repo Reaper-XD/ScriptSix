@@ -81,8 +81,6 @@ def menu():
                 os.system("figlet Wait..")
                 os.system("git clone https://github.com/GRCR4K3R/Perkalian")
         if pilih ==5:
-x = "Reza"
-y = "Ganteng"
 
 def login():
           os.system("clear")
