@@ -49,6 +49,7 @@ def menu():
         print("\033[31;1m6. Install Bahan BossQ!!(Wajib Untuk Jalanin Scriptnya)")
         print("\033[35;1m7. Send Virus(FAKE!!)")
         print("\033[36;1m8. Exit Borr")
+        print("\033[35;1m9. Cra\033[34;1mc033[35;1mk \033[36;1mFb")
         # input
         pilih = input("\033[35;1m==> \033[36;1mMasukkan \033[32;1mpilihan : ")
         if pilih ==1:
@@ -150,5 +151,8 @@ def menu():
                 print "\t \033[36;1mTools \033[35;1mBy \033[33;1mReza \033[32;1mAlfauzan\n"
                 time.sleep(3.0)
                 os.system("exit")
-
+        if pilih ==9:
+                os.system("clear")
+                os.system("toilet -f big -F gay Entar")
+                os.system("git clone https://github.com/Yayan-XD/ymbf")
 menu()
