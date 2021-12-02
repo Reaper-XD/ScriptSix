@@ -2,8 +2,8 @@
 
 import os,sys,time
 
-x = "Reza Alfauzan"
-y = "Ganteng"
+x = "Subscribe Dong"
+y = "Ganteng/Cantik"
 
 def login():
         os.system("clear")
@@ -79,7 +79,6 @@ def menu():
                 print logo
                 print"\t \033[36;1mTools \033[35;1mBy \033[33;1mReza \033[32;1mAlfauzan\n"
                 time.sleep(3.5)
-                os.system("python2 All.py")
         if pilih ==6:
                 os.system("clear")
                 os.system("figlet Tunggu / Wait")
@@ -148,5 +147,6 @@ def menu():
                 print "\t \033[36;1mSelamat \033[35;1mBerjumpa \033[33;1mLagi \033[32;1mKawan:)\n"
                 print "\t \033[36;1mTools \033[35;1mBy \033[33;1mReza \033[32;1mAlfauzan\n"
                 time.sleep(3.0)
+                os.system("exit")
 
 menu()
