@@ -12,7 +12,7 @@ os.system("figlet kalkulator")
 tampilan ="""
 \033[33;1m=================\033[37;1m==================\033[35;1m========================
 \033[32;1m=       \033[36;1m(+)Author     : \033[32;1mReza Alfauzan                     =
-\033[31;1m=       \033[36;1m(+)Github     : \033[31;1mhttps://github.com/GRCR4K3R       =
+\033[31;1m=       \033[36;1m(+)Github     : \033[31;1mhttps://github.com/Reaper-XD      =
 \033[34;1m=       \033[1;91m(+)Youtube    : \033[2;27mReja Gaming                       =
 \033[34;1m=       \033[31;1m(+)Pesan      : \033[1;91mJangan Recode Mas:)               =
 \033[36;1m=       (+)Pesan      : \033[36;1mGua Masih Noob:'(                 =
