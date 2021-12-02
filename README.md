@@ -2,7 +2,7 @@
 <code><pre>
 $pkg install python2
 $pkg install git
-$git clone https://github.com/GRCR4K3R/ScriptSix
+$git clone https://github.com/Reaper-XD/ScriptSix
 Oke Itu Udah Siap Scriptnya
 </code></pre>
 # Run Script
