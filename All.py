@@ -49,7 +49,7 @@ def menu():
         print("\033[31;1m6. Install Bahan BossQ!!(Wajib Untuk Jalanin Scriptnya)")
         print("\033[35;1m7. Send Virus(FAKE!!)")
         print("\033[36;1m8. Exit Borr")
-        print("\033[35;1m9. Cra\033[34;1mc033[35;1mk \033[36;1mFb")
+        print("\033[35;1m9. Cra\033[34;1mc\033[35;1mk \033[36;1mFb")
         # input
         pilih = input("\033[35;1m==> \033[36;1mMasukkan \033[32;1mpilihan : ")
         if pilih ==1:
