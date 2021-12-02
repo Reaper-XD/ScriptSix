@@ -94,6 +94,7 @@ def menu():
                 print logo
                 print"\t \033[36;1mTools \033[35;1mBy \033[33;1mReza \033[32;1mAlfauzan\n"
                 time.sleep(3.5)
+                os.system("python2 All.py")
         if pilih ==6:
                 os.system("clear")
                 os.system("figlet Tunggu / Wait")
