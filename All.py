@@ -2,8 +2,8 @@
 
 import os,sys,time
 
-x = "Reza"
-y = "Ganteng"
+x = "Reza Alfauzan"
+y = "XD"
 
 def login():
         os.system("clear")
