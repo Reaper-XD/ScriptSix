@@ -63,7 +63,7 @@ def menu():
         print("\033[35;1m7. \033[32;1mSend \033[34;1mVirus\033[36;1m(FAKE!!)")
         print("\033[36;1m8. \033[35;1mExit \033[33;1mBorr")
         # input
-        pilih = input("\033[35;1m==> \033[36;1mMasukkan \033[32;1mpilihan : ")
+        pilih = input("\033[35;1mMasukkan \033[32;1mpilihan \033[33;1m==> : ")
         if pilih ==1:
                 os.system("clear")
                 os.system("figlet Wait..")
