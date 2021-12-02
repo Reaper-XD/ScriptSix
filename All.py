@@ -69,7 +69,7 @@ def menu():
         if pilih ==1:
                 os.system("clear")
                 os.system("figlet Wait..")
-                os.system("git clone https://github.com/Reaper-XD/Malware")
+                os.system("git clone https://github.com/Reaper-XD/Marware")
         if pilih ==2:
                 os.system("clear")
                 os.system("figlet Wait..")
