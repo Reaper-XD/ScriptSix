@@ -82,7 +82,7 @@ def menu():
                 os.system("git clone https://github.com/GRCR4K3R/Perkalian")
         if pilih ==5:
                 os.system("clear")
-                os.system("os.system("toilet -f big -F gay Access User")")
+                os.system("toilet -f big -F gay Access User")
                 logo = """
                 \033[36;1m==============\033[35;1m[\033[33;1m*\033[35;1m] \033[33;1mSilahkan Login Bro \033[35;1m[\033[33;1m*\033[35;1m]\033[36;1m===================
                 \033[36;1m================\033[35;1m=========================\033[36;1m==================
