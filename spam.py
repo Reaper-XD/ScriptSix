@@ -22,6 +22,13 @@ mengetik('> > > > > > > > > > > > > > > > > > > > ] 100 % Completed')
 sleep(1)
 os.system('clear')
 def main():
+        banner = '''
+        [*]====================================================================[*]
+        [*] Author  : Reza Alfauzan XD                                         [*]
+        [*] Youtube : Reja gaming                                              [*]
+        [*] Github  : Reaper-XD                                                [*]
+        [*] Pesan   : Gua Masih Belajar Yaaaa!!                                [*]
+        [*]====================================================================[*]'''
         password = input ('Masukkan Kata Sandi : ')
         if password == 'Reza Gans':
                 print ('Kata Sandi Benar!!')
