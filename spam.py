@@ -29,6 +29,7 @@ def main():
         [*] Github  : Reaper-XD                                                [*]
         [*] Pesan   : Gua Masih Belajar Yaaaa!!                                [*]
         [*]====================================================================[*]'''
+        print banner
         password = input ('Masukkan Kata Sandi : ')
         if password == 'Reza Gans':
                 print ('Kata Sandi Benar!!')
