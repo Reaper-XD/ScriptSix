@@ -7,9 +7,29 @@ import json
 import requests
 import sys
 import os
-
-# menu
-
+import random
+import time
+from time import sleep
+os.system('clear')
+def mengetik(s):
+        for c in s + '\n':
+                sys.stdout.write(c)
+                sys.stdout.flush()
+                time.sleep(random.random() * 0.4)
+print('Loading...')
+sleep(0.1)
+mengetik('> > > > > > > > > > > > > > > > > > > > ] 100 % Completed')
+sleep(1)
+os.system('clear')
+def main():
+        password = input ('Masukkan Kata Sandi : ')
+        if password == 'Reza Gans':
+                print ('Kata Sandi Benar!!')
+                sleep(2)
+                os.system('clear')
+        else:
+                print ('Kata Sandi Salah!!')
+main()
 def menu():
         os.system('clear')
         os.system('figlet Spam Pesan')
