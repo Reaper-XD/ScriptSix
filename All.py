@@ -55,23 +55,14 @@ def menu():
         
         print logo
         print "\t \033[36;1mTools \033[35;1mBy \033[33;1mReza \033[32;1mAlfauzan\n"
-        time.sleep(2.0)
         print("\033[35;1m1. \033[36;1mSend \033[32;1mMalware")
-        time.sleep(1.0)
         print("\033[34;1m2. \033[33;1mUbah \033[31;1mTampilan")
-        time.sleep(1.1)
         print("\033[32;1m3. \033[34;1mSpam-no \033[33;1mWork")
-        time.sleep(1.2)
         print("\033[33;1m4. \033[31;1mPerkalian")
-        time.sleep(1.3)
         print("\033[34;1m5. \033[33;1mHack \033[31;1mFacebook")
-        time.sleep(1.4)
         print("\033[31;1m6. \033[36;1mInstall \033[35;1mBahan \033[32;1mBossQ!!\033[36;1m(Wajib Untuk Jalanin Scriptnya)")
-        time.sleep(1.5)
         print("\033[35;1m7. \033[32;1mSend \033[34;1mVirus\033[36;1m(FAKE!!)")
-        time.sleep(1.6)
         print("\033[36;1m8. \033[35;1mExit \033[33;1mBorr")
-        time.sleep(1.7)
         # input
         pilih = input("\033[35;1mMasukkan \033[32;1mpilihan \033[33;1m==> : ")
         if pilih ==1:
