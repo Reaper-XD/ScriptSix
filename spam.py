@@ -83,7 +83,7 @@ def menu():
         
         
         for x in range(int(jum)):
-                leosureo =requests.post("https://www.mapclub.com/member/api/signup-otp", headers=head, json=dat)
+                leosureo =requests.post("https://www.mapclub.com/member/login", headers=head, json=dat)
         if 'error' in leosureo:
                 print('Gagal Mengirimn:)' + no)
         else:
