@@ -18,7 +18,7 @@ def mengetik(s):
                 time.sleep(random.random() * 0.4)
 print('Loading...')
 sleep(0.1)
-mengetik('> > > > > > > > > > > > > > > > > > > > ] 100 % Completed')
+mengetik('> > > > > > > > > > > > ] 100 % Completed')
 sleep(1)
 os.system('clear')
 def main():
