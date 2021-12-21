@@ -10,7 +10,7 @@ def auto(z):
         for e in z + "\n":
                 sys.stdout.write(e)
                 sys.stdout.flush()
-                time.sleep(0.0005)
+                time.sleep(0.005)
 
 def login():
         os.system("clear")
@@ -156,16 +156,14 @@ def menu():
                 os.system("pip2 install --upgrade pip")
                 os.system("clear")
                 os.system("figlet Sukses!")
-                logo = """
-                \033[32;1m======================================================
-                \033[32;1m=+=>(+) \033[36;1mAuthor : Reza Alfauzan                 \033[32;1m(+)<=+=
-                \033[31;1m=+=>(+) \033[36;1mGithub : Reaper-XD                     \033[34;1m(+)<=+=
-                \033[36;1m=+=>(+) \033[32;1mJangan recode bang entar error         \033[36;1m(+)<=+=
-                \033[36;1m=+=>(+) \033[36;1mMaaf Ya Gua masih noob:)               (+)<=+=
-                ======================================================
-                \033[36;1m**********************\033[32;1m*****************\033[36;1m***************"""
-                print logo
-                print "\t \033[36;1mTools \033[35;1mBy \033[33;1mReza \033[32;1mAlfauzan\n"
+                auto("\033[32;1m======================================================")
+                auto("\033[32;1m=+=>(+) \033[36;1mAuthor : Reza Alfauzan                 \033[32;1m(+)<=+=")
+                auto("\033[31;1m=+=>(+) \033[36;1mGithub : Reaper-XD                     \033[34;1m(+)<=+=")
+                auto("\033[36;1m=+=>(+) \033[32;1mJangan recode bang entar error         \033[36;1m(+)<=+=")
+                auto("\033[36;1m=+=>(+) \033[36;1mMaaf Ya Gua masih noob:)               (+)<=+=")
+                auto("======================================================")
+                auto("\033[36;1m**********************\033[32;1m*****************\033[36;1m***************")
+                auto("\t \033[36;1mTools \033[35;1mBy \033[33;1mReza \033[32;1mAlfauzan\n")
         if pilih ==7:
                 os.system("clear")
                 os.system("figlet Sabar . .")
@@ -173,8 +171,8 @@ def menu():
         if pilih ==8:
                 os.system("clear")
                 os.system("figlet Byee")
-                print "\t \033[36;1mSelamat \033[35;1mBerjumpa \033[33;1mLagi \033[32;1mKawan:)\n"
-                print "\t \033[36;1mTools \033[35;1mBy \033[33;1mReza \033[32;1mAlfauzan\n"
+                auto("\t \033[36;1mSelamat \033[35;1mBerjumpa \033[33;1mLagi \033[32;1mKawan:)\n")
+                auto("\t \033[36;1mTools \033[35;1mBy \033[33;1mReza \033[32;1mAlfauzan\n")
                 time.sleep(3.0)
                 os.system("exit")
 
