@@ -2,8 +2,8 @@
 
 import os,sys,time
 
-x = "Reaper-XD"
-y = "Reza Gans"
+u = "Reaper-XD"
+p = "Reza Gans"
 
 #mengetik Otomatis
 def auto(z):
@@ -31,7 +31,7 @@ def login():
         
         user = raw_input("\033[33;1mM\033[31;1ma\033[36;1ms\033[35;1mu\033[32;1mk\033[34;1mk\033[33;1ma\033[31;1mn \033[33;1mU\033[31;1ms\033[36;1me\033[35;1mr\033[32;1mn\033[34;1ma\033[34;1mm\033[33;1me\033[36;1mn\033[35;1my\033[32;1ma : ")
         pasw = raw_input("\033[33;1mM\033[37;1ma\033[31;1ms\033[36;1mu\033[35;1mk\033[32;1mk\033[34;1ma\033[33;1mn \033[37;1mP\033[31;1ma\033[36;1ms\033[35;1ms\033[32;1mw\033[34;1mo\033[33;1mr\033[37;1md\033[31;1mn\033[36;1my\033[35;1ma : ")
-        if user ==x and pasw ==y:
+        if user ==u and pasw ==p:
                 auto("\033[33;1mA\033[31;1mc\033[36;1mc\033[35;1me\033[32;1ms\033[34;1ms \033[35;1mS\033[33;1mu\033[31;1mk\033[36;1ms\033[35;1me\033[33;1ms!")
                 time.sleep(1.5)
         else:
