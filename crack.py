@@ -27,7 +27,7 @@ except ImportError:
     os.system('pip2 install bs4')
 
 import requests, os, re, bs4, sys, json, time, random, datetime
-from concurrent.futures import ThreadPoolExecutor as YayanGanteng
+from concurrent.futures import ThreadPoolExecutor as RezaGanteng
 from datetime import datetime
 from bs4 import BeautifulSoup
 ct = datetime.now()
@@ -117,21 +117,21 @@ def rezaxd():
         open('.memek.txt', 'w').write(kontol)
         raw_input(' %s*%s tekan enter '%(O,N));wuhan(kontol)
         os.system('xdg-open https://youtube.com/channel/UCNvDaXoyAVCNJbSqtaXA-mg')
-        moch_yayan()
+        reza_xd()
     except KeyError:
         print '\n\n %s[%s!%s] token invalid'%(N,M,N);time.sleep(2);yayanxd()
 
 ### ORANG GANTENG ###
-def moch_yayan():
+def reza_xd():
     os.system('clear')
     try:
     	kontol = open('.memek.txt', 'r').read()
     except IOError:
-        print '\n %s[%s×%s] token invalid'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');yayanxd()
+        print '\n %s[%s×%s] token invalid'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');rezaxd()
     try:
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(kontol)).json()['name']
     except KeyError:
-        print '\n %s[%s×%s] token invalid'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');yayanxd()
+        print '\n %s[%s×%s] token invalid'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');rezaxd()
     except requests.exceptions.ConnectionError:
         exit('\n\n %s[%s!%s] tidak ada koneksi\n'%(N,M,N))
     os.system('clear')
@@ -486,7 +486,7 @@ def info_tools():
     print '\n %s[%s>%s] Instagram: https://www.instagram.com/yayanxd_'%(N,H,N);time.sleep(0.07)
     print '\n %s[%s>%s] Website  : https://www.yayanxd.my.id'%(N,H,N);time.sleep(0.07)
     print '\n %s[%s#%s]'%(N,O,N), 52 * '\x1b[1;96m-\x1b[0m';time.sleep(0.07)
-    raw_input('\n  [ %sKEMBALI%s ] '%(O,N));moch_yayan()
+    raw_input('\n  [ %sKEMBALI%s ] '%(O,N));reza_xd()
 
 ### ganti user agent
 def seting_yntkts():
@@ -517,12 +517,12 @@ def yo_ndak_tau_ko_tanya_saia():
         _agen_ = raw_input(' [%s?%s] masukan user agent hp anda :%s '%(O,N,H))
         open('YNTKTS.txt', 'w').write(_agen_);time.sleep(2)
         jalan('\n %s[%s✓%s] berhasil menggunakan user agent hp anda...'%(N,H,N))
-        raw_input('\n  %s[ %skembali%s ]'%(N,O,N));moch_yayan()
+        raw_input('\n  %s[ %skembali%s ]'%(N,O,N));reza_xd()
     elif _asu_ in['T','t']:
         _agen_ = raw_input(' [%s?%s] masukan user agent :%s '%(O,N,H))
         open('YNTKTS.txt', 'w').write(_agen_);time.sleep(2)
         jalan('\n %s[%s✓%s] berhasil mengganti user agent...'%(N,H,N))
-        raw_input('\n  %s[ %skembali%s ]'%(N,O,N));moch_yayan()
+        raw_input('\n  %s[ %skembali%s ]'%(N,O,N));reza_xd()
     else:
         print '\n %s[%s!%s] Y/t ngentod'%(N,M,N);yo_ndak_tau_ko_tanya_saia()
 # mulai ngecrot awokawokawokkawok
@@ -538,9 +538,9 @@ class __crack__:
             print '\n [%s+%s] total id -> %s%s%s' %(O,N,M,len(self.id),N)
         except:
             print '\n %s[%s×%s] File [%s%s%s] tidak ada, dump id dulu bro cek nomor 1 sampai 4'%(N,M,N,M,self.apk,N);time.sleep(3)
-            raw_input('\n  %s[ %skembali%s ]'%(N,O,N));moch_yayan()
-        ___yayanganteng___ = raw_input(' [%s?%s] apakah anda ingin menggunakan kata sandi manual? [Y/t]: '%(O,N))
-        if ___yayanganteng___ in ('Y', 'y'):
+            raw_input('\n  %s[ %skembali%s ]'%(N,O,N));reza_xd()
+        ___rezaganteng___ = raw_input(' [%s?%s] apakah anda ingin menggunakan kata sandi manual? [Y/t]: '%(O,N))
+        if ___rezaganteng___ in ('Y', 'y'):
             print '\n %s[%s!%s] gunakan , (koma) untuk pemisah contoh : sandi123,sandi12345,dll. setiap kata minimal 6 karakter atau lebih'%(N,M,N)
             while True:
                 pwek = raw_input('\n [%s?%s] masukan kata sandi : '%(O,N))
@@ -601,7 +601,7 @@ class __crack__:
                     print ' [%s3%s]. method mobile (super slow)'%(O,N)
                     __yan__(pwek.split(','))
                     break
-        elif ___yayanganteng___ in ('T', 't'):
+        elif ___rezaganteng___ in ('T', 't'):
             print '\n [ pilih method login - silahkan coba satu² ]\n'
             print ' [%s1%s]. method API (fast)'%(O,N)
             print ' [%s2%s]. method mbasic (slow)'%(O,N)
@@ -831,4 +831,4 @@ class __crack__:
 
 if __name__ == '__main__':
     os.system('git pull')
-    moch_yayan()
+    reza_xd()
