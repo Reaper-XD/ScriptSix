@@ -10,7 +10,7 @@ def auto(z):
         for e in z + "\n":
                 sys.stdout.write(e)
                 sys.stdout.flush()
-                time.sleep(0.02)
+                time.sleep(0.0005)
 
 def login():
         os.system("clear")
@@ -61,15 +61,15 @@ def menu():
         \033[36;1m<\033[35;1m===================\033[33;1m[ \033[31;1mSilahkan Pilih \033[33;1m]\033[35;1m====================\033[36;1m>"""
         
         print logo
-        print "\t \033[36;1mTools \033[35;1mBy \033[33;1mReza \033[32;1mAlfauzan\n"
-        print("\033[35;1m1. \033[36;1mSend \033[32;1mMalware")
-        print("\033[34;1m2. \033[33;1mUbah \033[31;1mTampilan")
-        print("\033[32;1m3. \033[34;1mSpam-no \033[33;1mWork")
-        print("\033[33;1m4. \033[31;1mPerkalian")
-        print("\033[34;1m5. \033[33;1mHack \033[31;1mFacebook")
-        print("\033[31;1m6. \033[36;1mInstall \033[35;1mBahan \033[32;1mBossQ!!\033[36;1m(Wajib Untuk Jalanin Scriptnya)")
-        print("\033[35;1m7. \033[32;1mSend \033[34;1mVirus\033[36;1m(FAKE!!)")
-        print("\033[36;1m8. \033[35;1mExit \033[33;1mBorr")
+        auto("\t \033[36;1mTools \033[35;1mBy \033[33;1mReza \033[32;1mAlfauzan\n")
+        auto("\033[35;1m1. \033[36;1mSend \033[32;1mMalware")
+        auto("\033[34;1m2. \033[33;1mUbah \033[31;1mTampilan")
+        auto("\033[32;1m3. \033[34;1mSpam-no \033[33;1mWork")
+        auto("\033[33;1m4. \033[31;1mPerkalian")
+        auto("\033[34;1m5. \033[33;1mHack \033[31;1mFacebook")
+        auto("\033[31;1m6. \033[36;1mInstall \033[35;1mBahan \033[32;1mBossQ!!\033[36;1m(Wajib Untuk Jalanin Scriptnya)")
+        auto("\033[35;1m7. \033[32;1mSend \033[34;1mVirus\033[36;1m(FAKE!!)")
+        auto("\033[36;1m8. \033[35;1mExit \033[33;1mBorr")
         # input
         pilih = input("\033[35;1mMasukkan \033[32;1mpilihan \033[33;1m==> : ")
         if pilih ==1:
