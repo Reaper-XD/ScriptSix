@@ -83,9 +83,9 @@ def exe():
 
 # Logo banner
 logo = '''\033[0;93m    __  ________         ___  ____
-\033[0;93m   /  |/  / ___/ ____   / _ )/ __/ ® \033[0;95m|| \033[1;94mCreated By Reza Alfauzan
-\033[0;93m  / /|_/ / /___ /___/  / _  / _/     \033[0;95m|| \033[1;94mGithub.com/Reaper-XD
-\033[0;93m /_/  /_/_____/       /____/_/ \033[0;91mv2.0  \033[0;95m|| \033[1;94mFacebook.com/ReaperXD277'''
+\033[0;93m   /  |/  / ___/ ____   / _ )/ __/ ® \033[0;95m|| \033[1;96mCreated By Reza Alfauzan
+\033[0;93m  / /|_/ / /___ /___/  / _  / _/     \033[0;95m|| \033[1;96mGithub.com/Reaper-XD
+\033[0;93m /_/  /_/_____/       /____/_/ \033[0;91mv2.0  \033[0;95m|| \033[1;96mFacebook.com/ReaperXD277'''
 
 lo_ngentod = '1714009362122228'
 # crack selesai
@@ -100,6 +100,7 @@ def hasil(ok,cp):
 #masuk token
 def rezaxd():
     os.system('clear')
+    print logo
     print (' %s*%s tools ini menggunakan login token facebook.\n %s*%s apakah kamu sudah tau cara mendapatkan token facebook?\n %s*%s ketik %sopen%s untuk mendapatkan token facebook.'%(O,N,O,N,O,N,H,N))
     mail = raw_input('\n %s[%s?%s] Token :%s '%(N,M,N,H))
     if mail in ('open', 'Open', 'OPEN'):
@@ -137,11 +138,11 @@ def reza_xd():
     os.system('clear')
     print logo
     IP = requests.get('https://www.yayanxd.my.id/server/ip/').text
-    print '\033[0m___________________________________________________________\n';time.sleep(0.03)
-    print ' (\033[0;96m•\033[0m) MCBF : ( Multi Crack Brute Facebook
+    print '\033[0;91m___________________________________________________________\n';time.sleep(0.03)
+    print ' (\033[0;96m•\033[0m) MCBF : ( Multi Crack Brute Facebook ) '
     print ' (\033[0;96m•\033[0m) ACTIVE USER : %s'%(nama);time.sleep(0.03)
     print ' (\033[0;96m•\033[0m) IP DEVICE   : %s'%(IP)
-    print '___________________________________________________________\n';time.sleep(0.03)
+    print '\033[0;91m___________________________________________________________\n';time.sleep(0.03)
     print ' [%s1%s]. Dump id dari teman'%(O,N);time.sleep(0.03)
     print ' [%s2%s]. Dump id dari teman publik'%(O,N);time.sleep(0.03)
     print ' [%s3%s]. Dump id dari total followers'%(O,N);time.sleep(0.03)
