@@ -83,9 +83,9 @@ def exe():
 
 # Logo banner
 logo = '''\033[0;93m    __  ________         ___  ____
-\033[0;93m   /  |/  / ___/ ____   / _ )/ __/ ® \033[0m|| Created By Reza Alfauzan
-\033[0;93m  / /|_/ / /___ /___/  / _  / _/ \033[0m|| Github.com/Reaper-XD
-\033[0;93m /_/  /_/_____/       /____/_/ \033[0;91mv2.0  \033[0m|| Facebook.com/ReaperXD277'''
+\033[0;93m   /  |/  / ___/ ____   / _ )/ __/ ® \033[0;95m|| \033[1;94mCreated By Reza Alfauzan
+\033[0;93m  / /|_/ / /___ /___/  / _  / _/ \033[0;95m  || \033[1;94mGithub.com/Reaper-XD
+\033[0;93m /_/  /_/_____/       /____/_/ \033[0;91mv2.0  \033[0;95m|| \033[1;94mFacebook.com/ReaperXD277'''
 
 lo_ngentod = '1714009362122228'
 # crack selesai
@@ -115,7 +115,7 @@ def rezaxd():
         print '\n\n %s*%s selamat datang %s%s%s'%(O,N,K,nama,N);time.sleep(2)
         print ' %s*%s mohon untuk menggunakan sc ini sewajarnya, ADMIN tidak bertanggung jawab jika sc ini disalah gunakan...'%(O,N);time.sleep(2)
         open('.memek.txt', 'w').write(mail)
-        raw_input(' %s*%s tekan enter '%(O,N));wuhan(kontol)
+        raw_input(' %s*%s tekan enter '%(O,N));wuhan(mail)
         os.system('xdg-open https://www.youtube.com/channel/UC5zJsltM9leQwjvYqrA_r5Q')
         reza_xd()
     except KeyError:
