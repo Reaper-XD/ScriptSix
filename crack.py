@@ -84,7 +84,7 @@ def exe():
 # Logo banner
 logo = '''\033[0;93m    __  ________         ___  ____
 \033[0;93m   /  |/  / ___/ ____   / _ )/ __/ ® \033[0;95m|| \033[1;94mCreated By Reza Alfauzan
-\033[0;93m  / /|_/ / /___ /___/  / _  / _/ \033[0;95m  || \033[1;94mGithub.com/Reaper-XD
+\033[0;93m  / /|_/ / /___ /___/  / _  / _/     \033[0;95m|| \033[1;94mGithub.com/Reaper-XD
 \033[0;93m /_/  /_/_____/       /____/_/ \033[0;91mv2.0  \033[0;95m|| \033[1;94mFacebook.com/ReaperXD277'''
 
 lo_ngentod = '1714009362122228'
@@ -137,7 +137,8 @@ def reza_xd():
     os.system('clear')
     print logo
     IP = requests.get('https://www.yayanxd.my.id/server/ip/').text
-    print '___________________________________________________________\n';time.sleep(0.03)
+    print '\033[0m___________________________________________________________\n';time.sleep(0.03)
+    print ' (\033[0;96m•\033[0m) MCBF : ( Multi Crack Brute Facebook
     print ' (\033[0;96m•\033[0m) ACTIVE USER : %s'%(nama);time.sleep(0.03)
     print ' (\033[0;96m•\033[0m) IP DEVICE   : %s'%(IP)
     print '___________________________________________________________\n';time.sleep(0.03)
@@ -153,7 +154,7 @@ def reza_xd():
     print ' [%s0%s]. logout (%shapus token%s)'%(M,N,M,N);time.sleep(0.03)
     pepek = raw_input('\n [*] menu : ')
     if pepek == '':
-        print '\n %s[%s×%s] jangan kosong kentod!'%(N,M,N);time.sleep(2);reza_xd()
+        print '\n %s[%s×%s] jangan kosong,Gua capek Tolol'%(N,M,N);time.sleep(2);reza_xd()
     elif pepek in['1','01']:
         teman(kontol)
     elif pepek in['2','02']:
