@@ -129,7 +129,7 @@ def reza_xd():
     except IOError:
         print '\n %s[%s×%s] token invalid'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');rezaxd()
     try:
-        nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(kontol)).json()['name']
+        nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(mail)).json()['name']
     except KeyError:
         print '\n %s[%s×%s] token invalid'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');rezaxd()
     except requests.exceptions.ConnectionError:
@@ -181,10 +181,10 @@ def reza_xd():
             hps_nm  = nm_file.replace(".txt", "").replace("OK", "").replace("CP", "")
             jalan(" [%s*%s] Hasil %scrack%s pada tanggal %s:%s%s%s total %s: %s%s%s"%(M,N,O,N,M,O,hps_nm,N,M,O,len(total),O))
             print(" %s[%s#%s] --------------------------------------------"%(N,O,N));time.sleep(2)
-            for memek in total:
-            	kontol = memek.replace("\n","")
-                titid  = kontol.replace(" [✓] "," \x1b[0m[\x1b[1;92m✓\x1b[0m]\x1b[1;92m ").replace(" [×] ", " \x1b[0m[\x1b[1;93m×\x1b[0m]\x1b[1;93m ")
-                print("%s%s"%(titid,N));time.sleep(0.03)
+            for makna in total:
+            	mail = makna.replace("\n","")
+                tiktok  = mail.replace(" [✓] "," \x1b[0m[\x1b[1;92m✓\x1b[0m]\x1b[1;92m ").replace(" [×] ", " \x1b[0m[\x1b[1;93m×\x1b[0m]\x1b[1;93m ")
+                print("%s%s"%(tiktok,N));time.sleep(0.03)
             print(" %s[%s#%s] --------------------------------------------"%(N,O,N))
             raw_input('\n  [ %sKEMBALI%s ] '%(O,N));reza_xd()
         except (IOError):
