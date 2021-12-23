@@ -81,11 +81,11 @@ def exe():
         sys.stdout.flush()
         time.sleep(1)
 
-# LO KONTOL
-logo = ''' \033[0;96m    __  ________         ___  ____
- \033[0;96m   /  |/  / ___/ ____   / _ )/ __/ ® \033[0m|| Created By Reza Alfauzan
- \033[0;96m  / /|_/ / /___ /___/  / _  / _/\033[0m|| Github.com/Reaper-XD
- \033[0;96m /_/  /_/_____/       /____/_/ \033[0;91mv2.0  \033[0m|| Facebook.com/ReaperXD277'''
+# Logo banner
+logo = '''\033[0;93m    __  ________         ___  ____
+\033[0;93m   /  |/  / ___/ ____   / _ )/ __/ ® \033[0m|| Created By Reza Alfauzan
+\033[0;93m  / /|_/ / /___ /___/  / _  / _/ \033[0m|| Github.com/Reaper-XD
+\033[0;93m /_/  /_/_____/       /____/_/ \033[0;91mv2.0  \033[0m|| Facebook.com/ReaperXD277'''
 
 lo_ngentod = '1714009362122228'
 # crack selesai
@@ -101,8 +101,8 @@ def hasil(ok,cp):
 def rezaxd():
     os.system('clear')
     print (' %s*%s tools ini menggunakan login token facebook.\n %s*%s apakah kamu sudah tau cara mendapatkan token facebook?\n %s*%s ketik %sopen%s untuk mendapatkan token facebook.'%(O,N,O,N,O,N,H,N))
-    kontol = raw_input('\n %s[%s?%s] Token :%s '%(N,M,N,H))
-    if kontol in ('open', 'Open', 'OPEN'):
+    mail = raw_input('\n %s[%s?%s] Token :%s '%(N,M,N,H))
+    if mail in ('open', 'Open', 'OPEN'):
         print '\n%s *%s note! usahakan akun tumbal login di google chrome terlebih dahulu'%(B,N);time.sleep(2)
         print '%s *%s jangan lupa! url ubah ke %shttps://m.facebook.com'%(B,N,H);time.sleep(2)
         print '%s *%s setelah di alihkan ke google chrome. klik %stitik tiga'%(B,N,H);time.sleep(2)
@@ -111,10 +111,10 @@ def rezaxd():
         os.system('xdg-open https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed#_=_')
         rezaxd()
     try:
-        nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(kontol)).json()['name']
+        nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(mail)).json()['name']
         print '\n\n %s*%s selamat datang %s%s%s'%(O,N,K,nama,N);time.sleep(2)
         print ' %s*%s mohon untuk menggunakan sc ini sewajarnya, ADMIN tidak bertanggung jawab jika sc ini disalah gunakan...'%(O,N);time.sleep(2)
-        open('.memek.txt', 'w').write(kontol)
+        open('.memek.txt', 'w').write(mail)
         raw_input(' %s*%s tekan enter '%(O,N));wuhan(kontol)
         os.system('xdg-open https://www.youtube.com/channel/UC5zJsltM9leQwjvYqrA_r5Q')
         reza_xd()
@@ -125,7 +125,7 @@ def rezaxd():
 def reza_xd():
     os.system('clear')
     try:
-    	kontol = open('.memek.txt', 'r').read()
+    	mail = open('.memek.txt', 'r').read()
     except IOError:
         print '\n %s[%s×%s] token invalid'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');rezaxd()
     try:
