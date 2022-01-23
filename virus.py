@@ -1,65 +1,79 @@
-#!/bin/python
-
-# Jangan recode ngentottt!!!!
-
 # module
-import os
-import sys
-import time
+import sys,time,os,random
+
+####################################
+#             Warna Random         #
+####################################
+P = "\33[37;1m" # PUTIH
+U = "\33[35;1m" # UNGU
+H = "\33[30;1m" # HITAM
+J = "\33[32;1m" # HIJAU
+B = "\33[34;1m" # BIRU
+O = "\33[36;1m" # BIRU MUDA
+K = "\33[33;1m" # KUNING
+M = "\33[31;1m" # MERAH
+
+my_color = [
+P, U, H, J, B, O, K, M]
+warna = random.choice(my_color)
+
+#### DETIK BERJALAN ####
+def detik():
+        detik = ["\33[30;1m[\x1b[1;96m01\33[30;1m]","\33[30;1m[\x1b[1;96m02\33[30;1m]","\33[30;1m[\x1b[1;96m03\33[30;1m]","\33[30;1m[\x1b[1;96m04\33[30;1m]","\33[30;1m[\x1b[1;96m05\33[30;1m]","\33[30;1m[\x1b[1;96m06\33[30;1m]","\33[30;1m[\x1b[1;96m07\33[30;1m]","\33[30;1m[\x1b[1;96m08\33[30;1m]","\33[30;1m[\x1b[1;96m09\33[30;1m]","\33[30;1m[\x1b[1;96m10\33[30;1m]","\33[30;1m[\x1b[1;96m11\33[30;1m]","\33[30;1m[\x1b[1;96m12\33[30;1m]","\33[30;1m[\x1b[1;96m13\33[30;1m]","\33[30;1m[\x1b[1;96m14\33[30;1m]","\33[30;1m[\x1b[1;96m15\33[30;1m]"]
+        for x in detik:
+                print "\r\33[31;1mSedang \33[36;1mProses : %s"%(x),
+                sys.stdout.flush()
+                time.sleep(1)
 
 
-# mengetik otomatis
+###############################################
+#                 Mengetik Auto               #
+###############################################
 def auto(z):
-        for e in z + "\n":
+        for e in z + '\n':
                 sys.stdout.write(e)
                 sys.stdout.flush()
                 time.sleep(0.05)
-
-
-
-# pertanyaan (y/t)
-def nanya():
-        nanya =raw_input("\033[34;1mApakah \033[32;1m anda \033[35;1m ingin \033[36;1matack lagi? \033[36;1m[\033[32;1mY\033[34;1m/\033[35;1mT\033[33;1m] \033[35;1m~\033[33;1m=> ")
+###############################################
+#               Menanyakan sesuatu            #
+###############################################
+def ngentot():
+        auto("\n\33[;0mApakah anda ingin \33[31;1mAtack \33[;0mLagi?")
+        nanya = raw_input("\33[;0m[\33[36;1mY\33[;0m/\33[31;1mn\33[;0m] : \33[36;1m")
         if nanya =="Y" or nanya =="y":
-                menu()
-        elif nanya =="T" or nanya =="t":
-                auto("\033[35;1mBye \033[32;1mBye \033[33;1m:)")
+                auto("Mohon Menunggu...")
+                print "%sAnda Harus menunggu %s15 %sdetik."%(O,M,O)
+                time.sleep(3)
+                os.system("clear")
+                detik()
+                babi()
+        elif nanya =="N" or nanya =="n":
+                auto("\33[;0mSelamat tinggal... / Bye Bye")
                 time.sleep(1)
-                sys.exit()
         elif nanya =="" or nanya =='':
-                auto("\033[32;1mJangan \033[35;1msampe \033[36;1mkosong \033[32;1mya")
+                auto("\nBodoh, Jangan Sampe Kosong!!")
+                raw_input("\33[30;1m[\33[33;1m+\33[30;1m] \33[;0mTekan Enter Untuk \33[36;1mKembali\33[;0m.....");ngentot()
                 time.sleep(1)
-                nanya()
-        else:
-                auto("\033[32;1mSalah, \033[35;1mMasukkan \033[36;1minput \033[32;1mpilihan \033[36;1mdengan \033[33;1mbenar!")
-                time.sleep(1)
-                nanya()
-                         
-##menu
-
-def menu():
+def babi():
         os.system("clear")
-        os.system("figlet Trojan Nih!!")
-        os.system("figlet Ini Virus Anjing!")
-        logo = """
-\033[32;1m=========================================================================
-\033[35;1m=            [+] Author     : Reza Alfauzan               [+]           =
-\033[31;1m=            [+] Github     : https://github.com/Reaper-XD[+]           =
-\033[1;91m=            [+] Facebook   : Rzaa Ajaa                   [+]           =
-\033[36;1m==============[+]==========================================[+]===========
-\033[33;1m===========================[+] Jangan Di Recode  [+]=====================
-\033[36;1m===========================[+] Love You Woii<3   [+]=====================
-\033[31;1m======================[+] Ini Sama di script sebelah [+]================="""
-        print logo
-        nomor = raw_input("\033[34;1mMasukkan \033[36;1mNomor \033[33;1mTarget : ") # input untuk si user memasukkan nomornya
-        jumlah = int(input("\033[31;1mMasukkan \033[35;1mjumlahnya : ")) # input untuk menyuruh si user memasukkan jumlahnya
+        print "%s______________________________________________"%(O)
+        print "%s[%s+%s] %sAuthor  %s: %sReaper-XD                    %s[%s+%s]"%(K,H,K,M,P,O,K,H,K)
+        print "%s[%s+%s] %sGithub  %s: %sReaper-XD                    %s[%s+%s]"%(K,H,K,M,P,O,K,H,K)
+        print "%s[%s+%s] %sFacebook%s: %sReaperXD277                  %s[%s+%s]"%(K,H,K,M,P,O,K,H,K)
+        print "%s[%s+%s] %sDon't Change %sAuthor %sScript Mee         %s[%s+%s]"%(K,H,K,M,P,O,K,H,K)
+        print "%s______________________________________________"%(O)
+
+
+        nomor = raw_input("\33[;0mMasukkan Nomor Target : \33[35;1m")
+        jumlah = int(input("\33[;0mMasukkan Jumlah Target : \33[35;1m"))
         time.sleep(1)
+
 
         try:
                 for i in range(jumlah):
-                        print "\033[34;1mBerhasil \033[36;1mmengirim \033[33;1mVirus \033[35;1m\033[36;1mKe \033[36;1m=>",nomor
-                        time.sleep(0.1)
+                        print "\33[;0mBerhasil Mengirim Virus ke > \33[36;1m",nomor
+                        time.sleep(0.05)
         except KeyboardInterrupt:
-                print "\033[36;1m### \033[33;1mSelesai \033[32;1m###"
-        nanya()
-menu()
+                print "\33[36;1m>v< \33[;0mSelesai \33[36;1m^>v<"
+                ngentot()
+babi()
